@@ -10,6 +10,9 @@ Wünsche und woran gerade gearbeitet wird. Lesen geht ohne Konto. Zum Melden
 oder Kommentieren braucht es ein GitHub-Konto; ohne Konto schreiben Sie an
 apps@cblum.ch. Meldungen auf Deutsch sind willkommen.
 
+Documentation and changelogs: <https://docs.cblum.ch/> (built from `docs/`
+with MkDocs; `scripts/sync-*.sh` copy each app's changelog here).
+
 ## Apps
 
 | App | Platform | Issues |

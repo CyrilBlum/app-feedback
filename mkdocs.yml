@@ -1,0 +1,41 @@
+site_name: Cyril Blum's apps
+site_url: https://docs.cblum.ch/
+site_description: Documentation, changelogs and feedback for the apps by Cyril Blum.
+repo_url: https://github.com/CyrilBlum/app-feedback
+repo_name: app-feedback
+edit_uri: ""
+copyright: Cyril Blum, <a href="https://cblum.ch/apps/">cblum.ch/apps</a>
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Pixel Porter:
+      - Overview: pixel-porter/index.md
+      - How to use it: pixel-porter/guide.md
+      - Changelog: pixel-porter/changelog.md
+      - Feedback and development: pixel-porter/feedback.md
