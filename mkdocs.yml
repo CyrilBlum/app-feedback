@@ -36,6 +36,10 @@ nav:
   - Home: index.md
   - Pixel Porter:
       - Overview: pixel-porter/index.md
-      - How to use it: pixel-porter/guide.md
+      - Features: pixel-porter/features.md
+      - Sync model: pixel-porter/sync-model.md
       - Changelog: pixel-porter/changelog.md
       - Feedback and development: pixel-porter/feedback.md
+
+extra_css:
+  - stylesheets/extra.css

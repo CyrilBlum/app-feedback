@@ -1,0 +1,7 @@
+/* Compact reference tables next to annotated screenshots */
+.md-typeset table:not([class]) { font-size: .7rem; }
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td { padding: .35em .7em; vertical-align: top; }
+.md-typeset table:not([class]) td:first-child { width: 1.5em; color: #e8590c; font-weight: 700; }
+.md-typeset img[align=right] { margin: 0 0 1em 1.5em; border-radius: 12px; box-shadow: 0 1px 6px rgba(0,0,0,.18); }
+@media (max-width: 44em) { .md-typeset img[align=right] { float: none; display: block; margin: 0 auto 1em; } }

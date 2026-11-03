@@ -6,7 +6,7 @@ pages, screenshots and privacy policies are on
 
 | App | Platform | Documentation |
 | --- | --- | --- |
-| Pixel Porter | iOS | [Overview](pixel-porter/index.md), [guide](pixel-porter/guide.md), [changelog](pixel-porter/changelog.md) |
+| Pixel Porter | iOS | [Overview](pixel-porter/index.md), [features](pixel-porter/features.md), [sync model](pixel-porter/sync-model.md), [changelog](pixel-porter/changelog.md) |
 
 Documentation for the other apps follows.
 

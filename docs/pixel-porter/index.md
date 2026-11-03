@@ -1,39 +1,28 @@
 # Pixel Porter
 
-Pixel Porter shows your Apple Photos library on the iPhone and copies it to a
-WebDAV server you run yourself, such as a Synology NAS, Nextcloud or ownCloud.
-Photos go straight from the iPhone to your server. There is no Pixel Porter
-cloud, no account and no analytics.
+Mirrors the iPhone photo library to a self-hosted WebDAV server, with reviewed, reversible deletion handling in both directions. No vendor cloud, no account, no analytics, no third-party SDKs.
 
-- Platform: iPhone, iOS 17 or later
-- Product page, screenshots and App Store link: [cblum.ch/apps/pixelporter](https://cblum.ch/apps/pixelporter/)
-- Privacy policy: [cblum.ch/apps/pixelporter/privacy](https://cblum.ch/apps/pixelporter/privacy/)
+| | |
+| --- | --- |
+| Platform | iPhone, iOS 17+ |
+| Server | Any WebDAV server over HTTPS: Synology (WebDAV Server package), Nextcloud, ownCloud, others |
+| Data path | iPhone → your server directly. Nothing passes through a developer server |
+| Local data | Sync records and logs in the app container; server password in the Keychain; host, user and paths in app settings |
+| Without a server | Photo browser, review tool and editor |
+| Links | [Product page](https://cblum.ch/apps/pixelporter/), [privacy policy](https://cblum.ch/apps/pixelporter/privacy/), [changelog](changelog.md), [feedback](feedback.md) |
 
-## What you can do with it
+## Pages
 
-- **Back up originals.** Photos and videos go to the server as they are,
-  including RAW files, the video part of Live Photos and your edits.
-- **Handle deletions safely.** When you delete a photo on the iPhone, its
-  server copy is kept or moved to a dated Server Bin, depending on your
-  settings. The Bin keeps items for 30 days by default, so a mistake can be
-  undone.
-- **Review changes made on the server.** If files disappear from the server,
-  Pixel Porter can list them so you decide per photo whether to upload it
-  again or delete it from the iPhone. Files that appear on the server without
-  coming from this iPhone are listed too.
-- **Stop when something looks wrong.** If unusually many deletions appear at
-  once, sync pauses and waits for you.
-- **Review and tidy your library.** Browse by year, camera or review status,
-  mark photos as reviewed, compare similar shots, edit and delete in batches.
-- **Free up space.** Remove local copies of photos that are on the server and
-  restore them later.
+- [Features](features.md): every screen with numbered annotations.
+- [Sync model](sync-model.md): server layout, upload, deletion rules, safety limits.
+- [Changelog](changelog.md): all versions, same list as in the app.
 
-Without a server, Pixel Porter works as a photo browser and editor.
+## Quick start
 
-!!! warning "Keep a separate backup"
-    Syncing is a mirror, not an independent backup: a deletion can reach the
-    server too. Keep another restorable copy of your photos before you offload
-    or delete anything. You use the app at your own risk.
+1. Grant full Photos access. Limited access shows only the selected items and disables deletion mirroring.
+2. Server tab: WebDAV host and port, a user restricted to one photo folder, destination path, Bin path. HTTPS stays on.
+3. Sync tab: **Sync**. The first run uploads the whole library; later runs upload only new or changed resources.
+4. Settings: choose how deletions are handled (default: listed for review, never applied automatically).
 
-See [How to use it](guide.md) for each tab, and the [changelog](changelog.md)
-for what changed in each version.
+!!! warning "Not an independent backup"
+    A mirror can propagate a deletion to the server. Keep a separate, restorable copy before offloading or deleting. Use at your own risk.
