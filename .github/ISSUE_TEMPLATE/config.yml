@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: E-mail instead of GitHub / E-Mail statt GitHub
+    url: mailto:apps@cblum.ch
+    about: Without a GitHub account, write to apps@cblum.ch. / Ohne GitHub-Konto an apps@cblum.ch schreiben.

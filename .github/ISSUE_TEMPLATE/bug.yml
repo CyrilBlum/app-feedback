@@ -1,0 +1,44 @@
+name: Problem / Fehler
+description: Something does not work as expected. / Etwas funktioniert nicht wie erwartet.
+labels: ["type: bug", "status: new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search the [existing issues](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aissue) first. Everything here is public: no personal data, health data or screenshots with personal content.
+        Bitte zuerst die bestehenden Einträge durchsuchen. Alles hier ist öffentlich: keine persönlichen Daten, Gesundheitsdaten oder Screenshots mit persönlichem Inhalt.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Better Baby Book
+        - Cycloputer
+        - Pixel Porter
+        - Rapid Reminders
+        - ScreenSnipStudio
+        - TimeTrackingTool
+        - Vocab Vault
+        - WeWeight
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and device / App-Version und Gerät
+      description: Settings or About screen in the app, e.g. "1.2 (5), iPhone 13 mini, iOS 26.1"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Schritte zum Nachstellen
+      placeholder: "1. …\n2. …"
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / Was haben Sie erwartet?

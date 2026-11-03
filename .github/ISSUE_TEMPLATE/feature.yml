@@ -1,0 +1,35 @@
+name: Feature request / Wunsch
+description: A new function or an improvement. / Eine neue Funktion oder eine Verbesserung.
+labels: ["type: feature", "status: new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search the [existing issues](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aissue) first; a thumbs-up on an existing request counts too. Everything here is public.
+        Bitte zuerst die bestehenden Einträge durchsuchen; ein Daumen hoch auf einem bestehenden Wunsch zählt auch. Alles hier ist öffentlich.
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Better Baby Book
+        - Cycloputer
+        - Pixel Porter
+        - Rapid Reminders
+        - ScreenSnipStudio
+        - TimeTrackingTool
+        - Vocab Vault
+        - WeWeight
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to do? / Was möchten Sie tun können?
+      description: Describe the situation and the goal, not only the solution. / Beschreiben Sie Situation und Ziel, nicht nur die Lösung.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today? / Wie lösen Sie das heute?
