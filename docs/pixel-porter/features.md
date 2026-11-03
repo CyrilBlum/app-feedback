@@ -4,7 +4,15 @@ Screenshots from the current build on a dedicated iPhone 17 Pro simulator with f
 
 ## Photos
 
-![Photos tab](img/photos.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Photos tab](img/photos.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -17,11 +25,23 @@ Screenshots from the current build on a dedicated iPhone 17 Pro simulator with f
 | 7 | Mark Done | Marks the whole day, month or year as reviewed |
 | 8 | Badges | Review state and server state per item |
 
+</div>
+
+</div>
+
 The viewer adds zoom, video scrubbing, EXIF and histogram, side-by-side comparison and an editor (adjustments, filters, crop, rotate, trim). Edits are saved to Apple Photos with their EXIF and location data. Every deletion goes through the iOS confirmation dialog.
 
 ## Sync
 
-![Sync tab](img/sync.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Sync tab](img/sync.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -31,11 +51,22 @@ The viewer adds zoom, video scrubbing, EXIF and histogram, side-by-side comparis
 | 4 | Per-type state | Complete, or the percentage still missing |
 | 5 | Counters | Items synced to and offloaded on the server |
 
+</div>
+
+</div>
+
 Further down: Server History (uploads and Bin moves by day), inbound changes from the server, and **Free Up Space**, which deletes local copies of uploaded items and marks them as offloaded (restorable from the server).
 
-<div style="clear: both"></div>
 
-![Sync running](img/sync-running.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Sync running](img/sync-running.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -44,13 +75,24 @@ Further down: Server History (uploads and Bin moves by day), inbound changes fro
 | 3 | Throughput | Live upload rate |
 | 4 | Per-type progress | Share already on the server |
 
+</div>
+
+</div>
+
 Uploads stream to a temporary file on the server and are renamed into place only when complete. Background sync runs when iOS grants time; it is not guaranteed.
 
-<div style="clear: both"></div>
 
 ## Server Additions
 
-![Server Additions](img/server-additions.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Server Additions](img/server-additions.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -59,13 +101,24 @@ Uploads stream to a temporary file on the server and are renamed into place only
 | 3 | Selection | Select files for a batch action, or swipe a row |
 | 4 | Actions | **Import** into Apple Photos, **Keep** (stop listing), **Clean Up** (move to the Server Bin) |
 
+</div>
+
+</div>
+
 Each action asks for confirmation. Cleaned-up files can be restored to their original folder from the Bin.
 
-<div style="clear: both"></div>
 
 ## Server
 
-![Server tab](img/server.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Server tab](img/server.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -75,13 +128,24 @@ Each action asks for confirmation. Cleaned-up files can be restored to their ori
 | 4 | Remote host | Optional address for outside the home network (DDNS or public name), used when the local probe fails |
 | 5 | HTTPS | On by default. Self-signed certificates need an explicit toggle |
 
+</div>
+
+</div>
+
 Further down: user name, password (Keychain), destination path, Bin path, connection test. The external port defaults to 5006 (Synology WebDAV HTTPS); set the port your router forwards.
 
-<div style="clear: both"></div>
 
 ## Deletions
 
-![Deletions tab](img/deletions.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Deletions tab](img/deletions.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -92,13 +156,24 @@ Further down: user name, password (Keychain), destination path, Bin path, connec
 | 5 | Move All to Bin | Move server copies to the dated Server Bin |
 | 6 | More | Delete directly without the Bin (confirmation required) |
 
+</div>
+
+</div>
+
 Further down: Offloaded Photos (restore to Apple Photos) and the Server Bin (restore, purge, empty items older than the retention period).
 
-<div style="clear: both"></div>
 
 ## Settings
 
-![Settings](img/settings.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Settings](img/settings.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
@@ -108,19 +183,32 @@ Further down: Offloaded Photos (restore to Apple Photos) and the Server Bin (res
 | 4 | Max Auto-Deletions | Circuit breaker, absolute (default 20) |
 | 5 | Max Library Percentage | Circuit breaker, relative (default 10 %) |
 
+</div>
+
+</div>
+
 Further down: Bin retention (default 30 days), weekly sync and review reminders, camera-model filter, inbound server sync, diagnostic log export, guide, What's New, reset.
 
-<div style="clear: both"></div>
 
 ## What's New
 
-![What's New](img/whats-new.webp){ width=260 align=right }
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![What's New](img/whats-new.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
 
 | # | Element | Function |
 | --- | --- | --- |
 | 1 | Entry | Type (new, improved, fixed) and title |
 | 2 | Location | Where to find the feature in the app |
 
-Settings › User Guide & Workflow › What's New lists every entry. After an update with new features, the sheet opens once and shows only those. The same data produces the [changelog](changelog.md).
+</div>
 
-<div style="clear: both"></div>
+</div>
+
+Settings › User Guide & Workflow › What's New lists every entry. After an update with new features, the sheet opens once and shows only those. The same data produces the [changelog](changelog.md).

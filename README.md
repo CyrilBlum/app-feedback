@@ -13,6 +13,28 @@ apps@cblum.ch. Meldungen auf Deutsch sind willkommen.
 Documentation and changelogs: <https://docs.cblum.ch/> (built from `docs/`
 with MkDocs; `scripts/sync-*.sh` copy each app's changelog here).
 
+To update the documented apps' changelogs from sibling private checkouts, run
+`scripts/sync-betterbabybook.sh`, `scripts/sync-cycloputer.sh`,
+`scripts/sync-pixelporter.sh` and `scripts/sync-rapidreminders.sh` as needed.
+The new scripts accept `BETTERBABYBOOK_ROOT`, `CYCLOPUTER_ROOT` and
+`RAPIDREMINDERS_ROOT` when those checkouts are elsewhere. Better Baby Book
+copies its generated `docs/CHANGELOG.md`; regenerate that file in the app
+repository after changing its canonical changelog. Cycloputer and Rapid
+Reminders read their canonical JSON directly without modifying the apps.
+
+Before publishing, install `requirements.txt` in a virtual environment and run
+`mkdocs build --strict`. A push to `main` publishes the site through GitHub Pages.
+
+Feature guides use real app screenshots with numbered annotations and matching
+explanations. Capture or reuse only isolated fictional data, inspect the raw and
+annotated images, and state the capture build and date in the guide. Reproduction
+scripts and detailed provenance live in each app's `docs/docs-site/` folder.
+Never substitute generated interface artwork for an app capture.
+Keep each image and its numbered table inside a `screenshot-guide` block with
+`screenshot-guide__image` and `screenshot-guide__details` children. The shared CSS
+places them in columns when space permits and stacks them in narrow views.
+Do not use floated images for these pairs.
+
 ## Apps
 
 | App | Platform | Issues |

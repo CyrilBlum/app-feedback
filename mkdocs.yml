@@ -29,17 +29,37 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - toc:
       permalink: true
 
 nav:
   - Home: index.md
+  - Better Baby Book:
+      - Einstieg: better-baby-book/index.md
+      - Funktionen: better-baby-book/features.md
+      - Familien-Synchronisation: better-baby-book/family-sync.md
+      - Sichern und Löschen: better-baby-book/backup-and-deletion.md
+      - Neuigkeiten: better-baby-book/changelog.md
+      - Feedback und Entwicklung: better-baby-book/feedback.md
+  - Cycloputer:
+      - Overview: cycloputer/index.md
+      - Features: cycloputer/features.md
+      - Routing, offline data and recordings: cycloputer/routing-and-data.md
+      - Changelog: cycloputer/changelog.md
+      - Feedback and development: cycloputer/feedback.md
   - Pixel Porter:
       - Overview: pixel-porter/index.md
       - Features: pixel-porter/features.md
       - Sync model: pixel-porter/sync-model.md
       - Changelog: pixel-porter/changelog.md
       - Feedback and development: pixel-porter/feedback.md
+  - Rapid Reminders:
+      - Overview: rapid-reminders/index.md
+      - Features: rapid-reminders/features.md
+      - Sync, sharing and data: rapid-reminders/sync-and-data.md
+      - Changelog: rapid-reminders/changelog.md
+      - Feedback and development: rapid-reminders/feedback.md
 
 extra_css:
   - stylesheets/extra.css
