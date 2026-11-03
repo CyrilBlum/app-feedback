@@ -75,7 +75,7 @@ Each action asks for confirmation. Cleaned-up files can be restored to their ori
 | 4 | Remote host | Optional address for outside the home network (DDNS or public name), used when the local probe fails |
 | 5 | HTTPS | On by default. Self-signed certificates need an explicit toggle |
 
-Further down: user name, password (Keychain), destination path, Bin path, connection test. The external port in the screenshot is covered.
+Further down: user name, password (Keychain), destination path, Bin path, connection test. The external port defaults to 5006 (Synology WebDAV HTTPS); set the port your router forwards.
 
 <div style="clear: both"></div>
 

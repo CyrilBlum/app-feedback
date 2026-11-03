@@ -22,4 +22,5 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 - **Live Photos partly moved to the Bin.** If only part of a Live Photo reached the Server Bin, it stays pending and the next attempt finishes the move instead of losing track of it.
 - **Failed Bin moves.** A photo no longer disappears from the Deletions list when moving it to the Bin failed.
+- **Default remote port.** A new setup suggests port 5006 for the remote host, the Synology WebDAV HTTPS port, instead of a fixed external port. Saved settings are not changed. *(Server tab)*
 
