@@ -2,11 +2,11 @@
 
 ## Route calculation
 
-Cycloputer first tries the downloaded routing data. A successful local calculation takes place on the iPhone. If local routing cannot produce a route, the app tries Apple Maps directions, which send the waypoints to Apple. Bicycle mode requests cycling directions. Sections without directions remain marked straight-line estimates.
+Cycloputer first tries the downloaded routing data. A successful local calculation takes place on the iPhone. If local routing cannot produce a route, the app tries Apple Maps directions, which send the waypoints to Apple. Bicycle and Speed pedelec modes request cycling directions from Apple. With the routing package, Speed pedelec uses the road bike profile, which keeps to paved ways; neither source checks restrictions for mopeds. Sections without directions remain marked straight-line estimates.
 
 Downloading routing data therefore does not provide a switch that forbids every Apple request. Check the route source shown in Route details. A GPX file supplies its own route line and is not automatically matched to roads.
 
-The elevation profile uses elevations from the GPX file or Cycloputer's terrain model, with its source shown. It is not a survey of current conditions. The ETA uses the assumed speed selected in Settings › General.
+The elevation profile uses elevations from the GPX file or Cycloputer's terrain model, with its source shown. It is not a survey of current conditions. Riding and arrival times follow the elevation profile and the speed on level ground set for the travel mode in Settings › General › Riding time estimate (see [riding time](features.md#riding-time)).
 
 ## Offline data
 
