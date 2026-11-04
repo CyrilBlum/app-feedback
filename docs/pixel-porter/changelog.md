@@ -8,6 +8,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 - **How Pixel Porter Works.** A guide to every tab: getting started, browsing and reviewing photos, syncing, the Server Bin and deletion review. *(Settings › User Guide & Workflow)*
 - **What's New.** This list of changes. After an update that brings new features, it opens once and shows only those. *(Settings › User Guide & Workflow)*
+- **Feedback & Development.** A short form for problems, suggestions and questions that prepares an e-mail, and a link to the public list of planned and ongoing work. *(Settings › Feedback & Development)*
 - **Server Additions.** Files in your backup folder that this iPhone did not upload are listed with path, date and size. Import them into Apple Photos, keep them on the server or move them to the Server Bin. *(Sync tab)*
 - **Works with any WebDAV server.** Pixel Porter works with a Synology NAS, Nextcloud, ownCloud and other WebDAV servers. Without a server, it works as a photo browser. *(Server tab)*
 

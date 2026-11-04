@@ -11,4 +11,5 @@ Dieselbe Liste finden Sie in der App unter Profil › App › Neuigkeiten. Die V
 - **Alltag schnell festhalten.** Stillen, Fläschchen, Windeln und Masse mit einem Tippen erfassen; Wachstumskurven mit den WHO-Referenzen. *(Übersicht)*
 - **Fotobuch und Sicherung.** Sie erstellen ein PDF-Fotobuch oder ein ZIP-Archiv mit allen Daten und Medien und können ein Kind aus einer Sicherung wieder importieren. *(Profil › Daten-Export & Sicherung)*
 - **Verschlüsselte Familien-Synchronisation.** Ausgewählte Kinder werden auf dem Gerät verschlüsselt und mit Ihrer Familie geteilt; Änderungen gleichen sich automatisch ab, auch nach einer Zeit offline. *(Profil › Familie & Cloud-Synchronisation)*
-- **Neuigkeiten.** Diese Liste der Änderungen. Nach einem Update mit neuen Funktionen öffnet sie sich einmal und zeigt nur diese. *(Profil › App › Neuigkeiten)*
+- **Neuigkeiten.** Diese Liste der Änderungen. Nach einem Update mit neuen Funktionen öffnet sie sich einmal und zeigt nur diese. *(Profil › Feedback und Entwicklung › Neuigkeiten)*
+- **Feedback und Entwicklung.** Neben dem Feedback-Formular führt ein Link zur öffentlichen Liste mit den geplanten und laufenden Arbeiten. *(Profil › Feedback und Entwicklung)*
