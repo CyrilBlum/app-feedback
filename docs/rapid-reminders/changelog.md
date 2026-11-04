@@ -13,3 +13,4 @@ The same changes are listed in the app under About & Usage › What's New. These
 - **Calendar subscription.** Subscribe to one, several or all lists in your calendar app. You can renew the link, and the old one stops working.
 - **Delete your account in the app.** Delete the account after confirming your password, and choose whether to keep the lists on this iPhone.
 - **What's New.** This list of changes, under About & Usage. After an update with new features, it opens once and shows only those.
+- **Feedback and development.** Under About & Usage, a short form for problems, wishes and questions prepares a mail, and a link shows the public list of planned and ongoing work.
