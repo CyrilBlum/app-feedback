@@ -8,6 +8,7 @@ The same changes are listed in the app under About › App Guide › What's New.
 
 #### Added
 
+- Feedback and development. A short form for problems, suggestions and questions that prepares an e-mail, and a link to the public list of planned and ongoing work. (About › Feedback & Development)
 - Cycling map of Switzerland. A topographic map with relief, contour lines and cycle routes, light and dark, plus a 3D view of the terrain. (Main map)
 - Route planning. Plan a route with waypoints, see distance, climb and an elevation profile, and save, import or export it as GPX. (Search and Routes)
 - Turn-by-turn navigation. Spoken directions with street names and haptic cues along the planned route. (Route)
@@ -21,6 +22,7 @@ The same changes are listed in the app under About › App Guide › What's New.
 
 #### Neu
 
+- Feedback und Entwicklung. Ein kurzes Formular für Probleme, Vorschläge und Fragen, das eine E-Mail vorbereitet, und ein Link zur öffentlichen Liste der geplanten und laufenden Arbeiten. (Über die App › Feedback und Entwicklung)
 - Velokarte der Schweiz. Eine topografische Karte mit Relief, Höhenlinien und Velorouten, hell und dunkel, dazu eine 3D-Ansicht des Geländes. (Hauptkarte)
 - Routenplanung. Sie planen eine Route mit Wegpunkten, sehen Distanz, Steigung und Höhenprofil und speichern, importieren oder exportieren sie als GPX. (Suche und Routen)
 - Navigation mit Abbiegehinweisen. Gesprochene Hinweise mit Strassennamen und Vibration entlang der geplanten Route. (Route)
