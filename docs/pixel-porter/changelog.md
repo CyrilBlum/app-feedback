@@ -26,4 +26,5 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 - **Failed Bin moves.** A photo no longer disappears from the Deletions list when moving it to the Bin failed.
 - **Default remote port.** A new setup suggests port 5006 for the remote host, the Synology WebDAV HTTPS port, instead of a fixed external port. Saved settings are not changed. *(Server tab)*
 - **Large text layouts.** File details, gallery review counts and server-addition actions have more room at accessibility text sizes. The welcome text scrolls above the setup buttons. Viewer and editor controls keep readable labels and support the large-content viewer. Changelog headings wrap at large text sizes. *(Photos, Sync, Deletions and Settings)*
+- **Server check at start.** With inbound sync on, files deleted or added on the server are now checked in the background when the app starts, not only after the first sync. *(Sync tab)*
 
