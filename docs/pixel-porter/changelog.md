@@ -19,6 +19,8 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 - **Separate deletion settings.** Mirroring iPhone deletions to the server and requiring manual review are now two separate settings. Turning review off never turns mirroring on. Your previous choice is kept. *(Settings › Deletions on the Server)*
 - **Confirmations before deleting.** Deleting directly from the server, approving a large batch and clearing the log now ask for confirmation first.
 - **Faster start.** Photos appear without waiting for file sizes, which are filled in afterwards. The sync records are read once instead of twice at launch, and the startup checks of Apple Photos and the server no longer run twice.
+- **Discard confirmation in editor.** Cancelling photo or video edits now asks for confirmation if adjustments, crops or filters were changed, preventing accidental loss of work. *(Viewer › Edit)*
+- **Empty filter guidance and sheet close buttons.** When a search or filter combination produces no results, an inline message offers to reset filters. Informational sheets use standard close buttons. *(Photos, Viewer and Sync)*
 
 ### Fixed
 
