@@ -14,6 +14,8 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Improved
 
+- **Safer Free Up Space.** Before deleting anything from your iPhone, Pixel Porter checks that every file is on the server with the size recorded at upload. Items it cannot confirm stay on the iPhone and are listed. You can also free space for older items only (over 30 days, 90 days or 1 year). *(Sync tab)*
+- **Complete restore of offloaded items.** Restore brings an item back with its Live Photo video, RAW file and edits, checks each download against its checksum, and Restore All brings back every offloaded item at once. *(Deletions tab)*
 - **New app icon.** A NAS whose drive bays together show one photo.
 - **One-tap Sync.** Both Sync buttons scan, upload and then list deletions for review. Rescan Only and Dry-Run Preview are still available. *(Sync tab)*
 - **Separate deletion settings.** Mirroring iPhone deletions to the server and requiring manual review are now two separate settings. Turning review off never turns mirroring on. Your previous choice is kept. *(Settings › Deletions on the Server)*
@@ -24,6 +26,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Uploads are checked on the server.** A file counts as uploaded only when the server reports the full size. A shortened file is uploaded again on the next sync. *(Sync tab)*
 - **Live Photos partly moved to the Bin.** If only part of a Live Photo reached the Server Bin, it stays pending and the next attempt finishes the move instead of losing track of it.
 - **Failed Bin moves.** A photo no longer disappears from the Deletions list when moving it to the Bin failed.
 - **Default remote port.** A new setup suggests port 5006 for the remote host, the Synology WebDAV HTTPS port, instead of a fixed external port. Saved settings are not changed. *(Server tab)*
