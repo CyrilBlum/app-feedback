@@ -7,6 +7,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 ### New
 
 - **Server History shows every transfer.** Server History now lists every upload, download, move to the Server Bin and deletion, with OK or Failed for each. Tap an entry to see each file, including the edit data saved with edited photos, with its server path, size, duration, the server's size check, checksum and why it was sent. Failed transfers name the step that failed. Export shares the whole transfer protocol as a text file. *(Sync tab)*
+- **Pixel Porter in your language.** Pixel Porter is now available in German, French, Italian, Spanish, Portuguese (Brazil), Dutch, Japanese and Chinese (Simplified) and follows the language of your iPhone. The activity log and the transfer protocol stay in English. *(Settings)*
 - **Thumbnails of offloaded items.** Offloaded items show a small preview in the Deletions tab. It is saved on the iPhone when you free up space; for photos offloaded earlier, Pixel Porter makes one from the server copy. *(Deletions tab)*
 - **How Pixel Porter Works.** A guide to every tab: getting started, browsing and reviewing photos, syncing, the Server Bin and deletion review. *(Settings › User Guide & Workflow)*
 - **What's New.** This list of changes. After an update that brings new features, it opens once and shows only those. *(Settings › User Guide & Workflow)*
