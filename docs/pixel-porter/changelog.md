@@ -6,7 +6,10 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### New
 
-- **Mute video playback.** Use the speaker button beside the video timeline to mute or unmute playback. Your choice stays while browsing within the viewer and does not change the video file. *(Photos tab)*
+- **Date while scrubbing.** Press and drag along the right edge of the Photos tab to scroll quickly. A label next to the scroll bar shows the year, month or day you are passing. *(Photos tab)*
+- **Collapsible date sections.** Collapse and expand day, month and year sections in the Photos tab by tapping their headers. A small button in the top right collapses or expands all sections at once for faster navigation. *(Photos tab)*
+- **Album management.** Add selected photos to an album, create new albums, rename and delete albums directly in Pixel Porter. Changes are written to Apple Photos and synced to the server with album backup enabled. Deleting an album never deletes its photos. *(Photos tab)*
+- **Mute video playback.** Video sound follows the iPhone's silent mode. Use the speaker button beside the video timeline to turn sound on, also in silent mode, or to mute it. Your choice stays while browsing within the viewer and does not change the video file. *(Photos tab)*
 - **Albums and favorites backup.** Browse your regular Apple Photos albums and folders from Photos. Enable Back Up Albums & Favorites in Settings to save album organisation in the server manifest without extra photo copies. Changes follow Apple Photos at the next sync. Restore brings back saved membership and favorites and recreates missing albums. Shared Albums are excluded. *(Photos and Settings)*
 - **Server History shows every transfer.** Server History now lists every upload, download, move to the Server Bin and deletion, with OK or Failed for each. Tap an entry to see each file, including the edit data saved with edited photos, with its server path, size, duration, the server's size check, checksum and why it was sent. Failed transfers name the step that failed. Export shares the whole transfer protocol as a text file. *(Sync tab)*
 - **Pixel Porter in your language.** Pixel Porter is now available in German, French, Italian, Spanish, Portuguese (Brazil), Dutch, Japanese and Chinese (Simplified) and follows the language of your iPhone. The activity log and the transfer protocol stay in English. *(Settings)*
@@ -17,6 +20,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 - **Feedback & Development.** A short form for problems, suggestions and questions that goes straight to the developer and answers with a ticket number (an e-mail stays possible), and a link to the public list of planned and ongoing work. *(Settings › Feedback & Development)*
 - **Server Additions.** Files in your backup folder that this iPhone did not upload are listed with path, date and size. Import them into Apple Photos, keep them on the server or move them to the Server Bin. *(Sync tab)*
 - **Works with any WebDAV server.** Pixel Porter works with a Synology NAS, Nextcloud, ownCloud and other WebDAV servers. Without a server, it works as a photo browser. *(Server tab)*
+- **Straighten photos.** In Edit > Crop & Rotate, drag the degree scale to straighten a photo. Tap the angle to reset it. Straightening combines with cropping and 90° turns, and Revert restores the original. *(Photos tab)*
 
 ### Improved
 
