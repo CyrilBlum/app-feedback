@@ -6,6 +6,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### New
 
+- **Transfer protocol.** Every upload and download is now listed with its result, file, server path, size, duration, the server's size check and why it was sent. Failed transfers name the step that failed. You can view and export it under Diagnostic Activity Log. *(Settings)*
 - **Thumbnails of offloaded items.** Offloaded items show a small preview in the Deletions tab. It is saved on the iPhone when you free up space; for photos offloaded earlier, Pixel Porter makes one from the server copy. *(Deletions tab)*
 - **How Pixel Porter Works.** A guide to every tab: getting started, browsing and reviewing photos, syncing, the Server Bin and deletion review. *(Settings › User Guide & Workflow)*
 - **What's New.** This list of changes. After an update that brings new features, it opens once and shows only those. *(Settings › User Guide & Workflow)*
@@ -27,6 +28,12 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Edited photos are no longer uploaded again.** Edited photos and videos were taken for reverted edits on every second sync: Pixel Porter removed their edited versions from the server and uploaded them again on the next sync. This no longer happens. The next sync checks once that the edited versions of earlier uploads are on the server and uploads any that are missing. *(Sync tab)*
+- **Settings stay responsive during uploads.** Settings no longer become slow while a sync is uploading. *(Settings)*
+- **Stop responds at once.** Stop shows «Stopping…» right away and also ends the first library scan, which used to finish before the sync stopped. *(Sync tab)*
+- **Backup folder problems explained.** Test Connection now checks that the backup folder exists or can be created. If the server refuses, the message says why (missing parent folder, no write access, server full) and what to change. *(Server tab)*
+- **Failed uploads are reported.** If items cannot be uploaded, the sync now says how many and why, and it stops after 10 failures in a row instead of running through the whole library without uploading anything. *(Sync tab)*
+- **Keyboard on the Server tab.** A Done button above the keyboard, and scrolling the form, close the keyboard, so the tab bar is reachable again without scrolling to the end of the form. *(Server tab)*
 - **Sync on Wi-Fi Only works.** With Sync on Wi-Fi Only turned on, Pixel Porter no longer syncs over cellular data or a hotspot. If the iPhone leaves Wi-Fi during a sync, it stops before the next item and keeps what is already uploaded. *(Settings)*
 - **Uploads are checked on the server.** A file counts as uploaded only when the server reports the full size. A shortened file is uploaded again on the next sync. *(Sync tab)*
 - **Live Photos partly moved to the Bin.** If only part of a Live Photo reached the Server Bin, it stays pending and the next attempt finishes the move instead of losing track of it.
