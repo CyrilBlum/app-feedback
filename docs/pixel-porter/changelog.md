@@ -16,6 +16,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Improved
 
+- **Review next to Delete in the viewer.** In the photo viewer, the Reviewed button now sits at the bottom right next to the Delete button. *(Photos tab)*
 - **Safer Free Up Space.** Before deleting anything from your iPhone, Pixel Porter checks that every file is on the server with the size recorded at upload. Items it cannot confirm stay on the iPhone and are listed. You can also free space for older items only (over 30 days, 90 days or 1 year). *(Sync tab)*
 - **Complete restore.** Restoring an offloaded item or an item from the Server Bin brings it back with its Live Photo video, RAW file and edits, after checking each download against its checksum. Restore All brings back every offloaded item at once. *(Deletions tab)*
 - **New app icon.** A NAS whose drive bays together show one photo.
