@@ -10,6 +10,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 - **Albums and favorites backup.** Browse your regular Apple Photos albums and folders from Photos. Enable Back Up Albums & Favorites in Settings to save album organisation in the server manifest without extra photo copies. Changes follow Apple Photos at the next sync. Restore brings back saved membership and favorites and recreates missing albums. Shared Albums are excluded. *(Photos and Settings)*
 - **Server History shows every transfer.** Server History now lists every upload, download, move to the Server Bin and deletion, with OK or Failed for each. Tap an entry to see each file, including the edit data saved with edited photos, with its server path, size, duration, the server's size check, checksum and why it was sent. Failed transfers name the step that failed. Export shares the whole transfer protocol as a text file. *(Sync tab)*
 - **Pixel Porter in your language.** Pixel Porter is now available in German, French, Italian, Spanish, Portuguese (Brazil), Dutch, Japanese and Chinese (Simplified) and follows the language of your iPhone. The activity log and the transfer protocol stay in English. *(Settings)*
+- **Offloaded photos stay visible.** Photos removed with Free Up Space now appear in the Photos tab at their date, dimmed and with a cloud. Tap one, or a row in the Deletions tab, to see it from the server without restoring it. *(Photos tab)*
 - **Thumbnails of offloaded items.** Offloaded items show a small preview in the Deletions tab. It is saved on the iPhone when you free up space; for photos offloaded earlier, Pixel Porter makes one from the server copy. *(Deletions tab)*
 - **How Pixel Porter Works.** A guide to every tab: getting started, browsing and reviewing photos, syncing, the Server Bin and deletion review. *(Settings › User Guide & Workflow)*
 - **What's New.** This list of changes. After an update that brings new features, it opens once and shows only those. *(Settings › User Guide & Workflow)*
@@ -20,6 +21,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 ### Improved
 
 - **Review next to Delete in the viewer.** In the photo viewer, the Reviewed button now sits at the bottom right next to the Delete button. *(Photos tab)*
+- **Clearer Deletions tab.** The Deletions tab is more compact: each section starts collapsed and shows its count, and its actions sit above the photos instead of below them. *(Deletions tab)*
 - **Safer Free Up Space.** Before deleting anything from your iPhone, Pixel Porter checks that every file is on the server with the size recorded at upload. Items it cannot confirm stay on the iPhone and are listed. You can also free space for older items only (over 30 days, 90 days or 1 year). *(Sync tab)*
 - **Complete restore.** Restoring an offloaded item or an item from the Server Bin brings it back with its Live Photo video, RAW file and edits, after checking each download against its checksum. Restore All brings back every offloaded item at once. *(Deletions tab)*
 - **New app icon.** A NAS whose drive bays together show one photo.
