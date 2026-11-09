@@ -24,6 +24,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Improved
 
+- **Albums.** Album and favorite backup is on by default. Previously saved choices are kept. You can change this in Settings. *(Photos and Settings)*
 - **Review next to Delete in the viewer.** In the photo viewer, the Reviewed button now sits at the bottom right next to the Delete button. *(Photos tab)*
 - **Offloaded photos stay in their albums.** Photos removed with Free Up Space stay in their albums in Pixel Porter and return to them when restored. Their albums are saved on the iPhone even without album backup; album names reach the server only with album backup on. *(Photos tab)*
 - **Clearer Deletions tab.** The Deletions tab is more compact: each section starts collapsed and shows its count, and its actions sit above the photos instead of below them. *(Deletions tab)*
@@ -39,6 +40,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Date while scrubbing.** The date appears while you hold the gallery scrollbar and disappears when you release it. *(Photos tab)*
 - **Edited photos are no longer uploaded again.** Edited photos and videos were taken for reverted edits on every second sync: Pixel Porter removed their edited versions from the server and uploaded them again on the next sync. This no longer happens. The next sync checks once that the edited versions of earlier uploads are on the server and uploads any that are missing. *(Sync tab)*
 - **Settings stay responsive during uploads.** Settings no longer become slow while a sync is uploading. *(Settings)*
 - **Stop responds at once.** Stop shows «Stopping…» right away and also ends the first library scan, which used to finish before the sync stopped. *(Sync tab)*
