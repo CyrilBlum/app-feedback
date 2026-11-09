@@ -40,7 +40,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
-- **Date while scrubbing.** The date appears while you hold the gallery scrollbar and disappears when you release it. *(Photos tab)*
+- **Date while scrubbing.** The date stays vertically aligned with the gallery scrollbar while dragging and disappears when released. *(Photos tab)*
 - **Edited photos are no longer uploaded again.** Edited photos and videos were taken for reverted edits on every second sync: Pixel Porter removed their edited versions from the server and uploaded them again on the next sync. This no longer happens. The next sync checks once that the edited versions of earlier uploads are on the server and uploads any that are missing. *(Sync tab)*
 - **Settings stay responsive during uploads.** Settings no longer become slow while a sync is uploading. *(Settings)*
 - **Stop responds at once.** Stop shows «Stopping…» right away and also ends the first library scan, which used to finish before the sync stopped. *(Sync tab)*
