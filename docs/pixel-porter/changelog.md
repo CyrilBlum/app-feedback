@@ -24,6 +24,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Improved
 
+- **Smoother gallery scrolling.** Scrolling in the Photos tab needs less computing per photo and runs more smoothly in large libraries. *(Photos tab)*
 - **Albums.** Album and favorite backup is on by default. Previously saved choices are kept. You can change this in Settings. *(Photos and Settings)*
 - **Review next to Delete in the viewer.** In the photo viewer, the Reviewed button now sits at the bottom right next to the Delete button. *(Photos tab)*
 - **Offloaded photos stay in their albums.** Photos removed with Free Up Space stay in their albums in Pixel Porter and return to them when restored. Their albums are saved on the iPhone even without album backup; album names reach the server only with album backup on. *(Photos tab)*
