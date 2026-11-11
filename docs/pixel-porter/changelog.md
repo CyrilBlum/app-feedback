@@ -6,6 +6,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### New
 
+- **Optional server checksum check.** Before Free Up Space removes backed-up photos from your iPhone, it can now optionally download and verify the SHA-256 checksum of every file on the server. You can turn this on in Settings under Safety. *(Settings and Sync tab)*
 - **Date while scrubbing.** Press and drag along the right edge of the Photos tab to scroll quickly. A label next to the scroll bar shows the year, month or day you are passing. *(Photos tab)*
 - **Collapsible date sections.** Collapse and expand day, month and year sections in the Photos tab by tapping their headers. A small button in the top right collapses or expands all sections at once for faster navigation. *(Photos tab)*
 - **Album management.** Add selected photos to an album, create new albums, rename and delete albums directly in Pixel Porter. Changes are written to Apple Photos and synced to the server with album backup enabled. Deleting an album never deletes its photos. *(Photos tab)*
@@ -41,6 +42,9 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Steady Sync button.** When everything is already backed up, the Sync button no longer switches back and forth between Sync and Stop after you tap it. *(Sync tab)*
+- **Select with marked photos.** On narrow iPhones such as the iPhone mini, the Select button in the Photos tab no longer disappears into the ••• menu while photos are marked for deletion. Marked photos are now deleted or cleared from a compact menu next to Select. *(Photos tab)*
+- **Compact layout and readability.** Main navigation titles and action buttons no longer truncate on compact screens or with larger text sizes. Status texts use readable high-contrast styling in light mode, and informational sheets close with the standard close button. *(App-wide)*
 - **Date while scrubbing.** The date stays vertically aligned with the gallery scrollbar while dragging and disappears when released. *(Photos tab)*
 - **Edited photos are no longer uploaded again.** Edited photos and videos were taken for reverted edits on every second sync: Pixel Porter removed their edited versions from the server and uploaded them again on the next sync. This no longer happens. The next sync checks once that the edited versions of earlier uploads are on the server and uploads any that are missing. *(Sync tab)*
 - **Settings stay responsive during uploads.** Settings no longer become slow while a sync is uploading. *(Settings)*
