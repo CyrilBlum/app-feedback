@@ -1,57 +1,56 @@
-# Familien-Synchronisation
+# Family sync
 
-Mit dem Familien-Sync bearbeiten mehrere Familienmitglieder ausgewählte Kinder auf ihren Geräten. Er umfasst deren Profile, Ereignisse, Alltagsprotokolle und unterstützte Medien, einschliesslich Spitznamen-Aufnahmen. Jedes Konto kann auf dem Server einer Familie angehören.
+With family sync, several family members edit selected children on their own devices. It covers their profiles, events, daily logs and supported media, including nickname recordings. On the server, each account can belong to one family.
 
-## Familie einrichten
+## Setting up a family
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Familien-Sync mit nummerierten Bedienelementen und fiktivem Konto](img/family-sync.webp){ width=260 }
+![Family sync with numbered controls and a fictional account](img/family-sync.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Verschlüsselungshinweis | Erklärt, welche Daten verschlüsselt sind und welche Metadaten der Server sieht. |
-| 2 | Benutzerkonto | Zeigt das angemeldete Konto und bietet «Abmelden». |
-| 3 | Konto löschen | Öffnet die Erklärung und Bestätigung der Kontolöschung. |
-| 4 | Familiengruppe | Öffnet die Familienoptionen. Die Aufnahme verwendet ausschliesslich ein fiktives Konto und einen Demo-Einladungscode. |
+| 1 | Encryption notice | Explains which data is encrypted and which metadata the server sees. |
+| 2 | User account | Shows the signed-in account and offers "Abmelden" (Sign out). |
+| 3 | "Konto löschen" (Delete account) | Opens the explanation and confirmation for deleting the account. |
+| 4 | Family group | Opens the family options. The capture uses only a fictional account and a demo invitation code. |
 
 </div>
 
 </div>
 
+1. Open "Profil › Familie & Cloud-Synchronisation › Familien-Synchronisation (E2EE)" (Profile › Family & cloud sync › Family sync).
+2. Create a user account or sign in.
+3. Choose "Neue Familie erstellen" (Create new family). Enter a family name and a strong family password. Keep it in a safe place.
+4. Under "Kinder mit Familie teilen & hochladen" (Share & upload children with family), switch on the children you want to share. Wait until the upload has finished without errors.
+5. Other members sign in with their own account and choose "Bestehender Familie beitreten" (Join existing family). They need the invitation code and the same family password.
 
-1. Öffnen Sie «Profil › Familie & Cloud-Synchronisation › Familien-Synchronisation (E2EE)».
-2. Erstellen Sie ein Benutzerkonto oder melden Sie sich an.
-3. Wählen Sie «Neue Familie erstellen». Vergeben Sie einen Familiennamen und ein starkes Familien-Passwort. Bewahren Sie es sicher auf.
-4. Aktivieren Sie unter «Kinder mit Familie teilen & hochladen» die gewünschten Kinder. Warten Sie, bis der Upload ohne Fehler abgeschlossen ist.
-5. Weitere Mitglieder melden sich mit ihrem eigenen Konto an und wählen «Bestehender Familie beitreten». Sie benötigen den Einladungscode und dasselbe Familien-Passwort.
+Share the password and invitation code only with the intended members. The operator cannot recover or reset a forgotten family password. Update all family devices so that they support the same data formats.
 
-Teilen Sie Passwort und Einladungscode nur mit den vorgesehenen Mitgliedern. Der Betreiber kann ein vergessenes Familien-Passwort nicht wiederherstellen oder zurücksetzen. Aktualisieren Sie alle Familiengeräte, damit sie dieselben Datenformate unterstützen.
+## Encryption and passwords
 
-## Verschlüsselung und Passwörter
+The account password is used to sign in. The separate family password encrypts the shared children's data on the device. The server receives the encrypted child bundles. User name, e-mail address, family name, membership and technical sync metadata are not part of this encryption. Local files and [exports](backup-and-deletion.md) are not encrypted this way.
 
-Das Kontopasswort dient zur Anmeldung. Das separate Familien-Passwort verschlüsselt die geteilten Kinderdaten auf dem Gerät. Der Server erhält die verschlüsselten Kinderpakete. Benutzername, E-Mail-Adresse, Familienname, Mitgliedschaft und technische Sync-Metadaten sind davon ausgenommen. Lokale Dateien und [Exporte](backup-and-deletion.md) erhalten diese Verschlüsselung nicht.
+The stored family password can be shown in the family view. The owner of the family can change it with "Familien-Passwort ändern …" (Change family password). The other members then enter the new password under "Familien-Passwort eingeben …" (Enter family password). This entry only changes the password used on that device.
 
-Das gespeicherte Familien-Passwort lässt sich in der Familienansicht anzeigen. Der Besitzer der Familie kann es über «Familien-Passwort ändern …» ändern. Anschliessend müssen die anderen Mitglieder unter «Familien-Passwort eingeben …» das neue Passwort hinterlegen. Diese Eingabe ändert nur das auf dem Gerät verwendete Passwort.
+If a child bundle cannot be decrypted, the app reports an error and does not overwrite that bundle. Check the family password first. Do not delete local data to fix such an error.
 
-Wenn sich ein Kinderpaket nicht entschlüsseln lässt, meldet die App einen Fehler und überschreibt dieses Paket nicht. Prüfen Sie zuerst das Familien-Passwort. Löschen Sie keine lokalen Daten, um einen solchen Fehler zu beheben.
+## Changes and connection problems
 
-## Änderungen und Verbindungsprobleme
+Changes to shared children start a sync automatically. Changes made offline stay pending and are retried when the connection is back. Opening the app also fetches the family's changes. "Alle Familien synchronisieren" (Sync all families) starts a manual sync.
 
-Änderungen an geteilten Kindern lösen automatisch einen Abgleich aus. Offline erfasste Änderungen bleiben ausstehend und werden bei wiederhergestellter Verbindung erneut versucht. Beim Öffnen der App werden auch Änderungen der Familie abgerufen. «Alle Familien synchronisieren» startet einen manuellen Abgleich.
+Simultaneous changes are merged per entry. When the same entry was edited on several devices, the most recent change wins. This is no edit history and no replacement for an independent backup. Check important entries after conflicting changes.
 
-Gleichzeitige Änderungen werden pro Eintrag zusammengeführt. Bei mehreren Bearbeitungen desselben Eintrags entscheidet der Änderungszeitpunkt. Das ersetzt keine Bearbeitungshistorie und keine unabhängige Sicherung. Prüfen Sie wichtige Einträge nach widersprüchlichen Änderungen.
+If an error occurs, check the connection and the error message. The "Cloud-Server" button opens the connection diagnostics, which show the connection status and local data sizes, among other things.
 
-Bei einem Fehler prüfen Sie die Verbindung und die Fehlermeldung. Die Schaltfläche «Cloud-Server» öffnet die Verbindungsdiagnose. Sie zeigt unter anderem Verbindungsstatus und lokale Datenmengen.
+## Access and sharing
 
-## Zugang und Freigaben
+"Neuen Einladungscode erstellen" (Create new invitation code) makes the previous invitation code invalid. Existing members stay in the family. A single member cannot be removed in the app. A new password cannot take back copies that were already downloaded either.
 
-«Neuen Einladungscode erstellen» macht den bisherigen Einladungscode ungültig. Bestehende Mitglieder bleiben in der Familie. Ein einzelnes Mitglied lässt sich in der App nicht entfernen. Auch ein neues Passwort kann bereits heruntergeladene Kopien nicht zurückholen.
-
-Das Ausschalten der Freigabe eines Kindes oder «Abmelden» löscht dessen Serverkopie nicht. Für das Entfernen von Daten lesen Sie zuerst [Sichern und Löschen](backup-and-deletion.md).
+Switching off sharing for a child or choosing "Abmelden" (Sign out) does not delete its copy on the server. Before removing data, read [Backup and deletion](backup-and-deletion.md).

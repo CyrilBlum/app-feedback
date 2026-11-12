@@ -6,7 +6,7 @@ pages, screenshots and privacy policies are on
 
 | App | Platform | Documentation |
 | --- | --- | --- |
-| Better Baby Book | iOS | [Einstieg](better-baby-book/index.md), [Funktionen](better-baby-book/features.md), [Familien-Sync](better-baby-book/family-sync.md), [Neuigkeiten](better-baby-book/changelog.md) (Deutsch) |
+| Better Baby Book | iOS | [Overview](better-baby-book/index.md), [features](better-baby-book/features.md), [family sync](better-baby-book/family-sync.md), [changelog](better-baby-book/changelog.md) |
 | Cycloputer | iOS | [Overview](cycloputer/index.md), [features](cycloputer/features.md), [routing and offline data](cycloputer/routing-and-data.md), [changelog](cycloputer/changelog.md) |
 | Pixel Porter | iOS | [Overview](pixel-porter/index.md), [features](pixel-porter/features.md), [sync model](pixel-porter/sync-model.md), [changelog](pixel-porter/changelog.md) |
 | Rapid Reminders | iOS | [Overview](rapid-reminders/index.md), [features](rapid-reminders/features.md), [sync and sharing](rapid-reminders/sync-and-data.md), [changelog](rapid-reminders/changelog.md) |

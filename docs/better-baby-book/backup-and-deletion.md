@@ -1,62 +1,61 @@
-# Sichern und Löschen
+# Backup and deletion
 
-## Sicherung erstellen
+## Creating a backup
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Export mit nummerierten Bedienelementen](img/export.webp){ width=260 }
+![Export with numbered controls](img/export.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | ZIP-Archiv exportieren & teilen | Erstellt das Datenarchiv und öffnet anschliessend das Teilen-Menü. |
-| 2 | PDF-Buch generieren & teilen | Erstellt das Fotobuch zur Ansicht oder zum Druck. |
+| 1 | "ZIP-Archiv exportieren & teilen" (Export & share ZIP archive) | Creates the data archive and then opens the share sheet. |
+| 2 | "PDF-Buch generieren & teilen" (Generate & share PDF book) | Creates the photo book for viewing or printing. |
 
 </div>
 
 </div>
 
+Open "Profil › Daten-Export & Sicherung › Vollständiger Daten-Export" (Profile › Data export & backup › Full data export) for the active child.
 
-Öffnen Sie «Profil › Daten-Export & Sicherung › Vollständiger Daten-Export» für das aktive Kind.
-
-| Ausgabe | Zweck und Inhalt |
+| Output | Purpose and content |
 | --- | --- |
-| «Vollständiges Daten-Archiv (ZIP)» | JSON-Daten für den Import, lesbare CSV-Tabellen und verfügbare Fotos und Sprachaufnahmen |
-| «PDF-Präsentation / Fotobuch» | Erinnerungsalbum zur Ansicht, zum Teilen oder zum Drucken |
+| "Vollständiges Daten-Archiv (ZIP)" (Full data archive) | JSON data for import, readable CSV tables and the available photos and voice recordings |
+| "PDF-Präsentation / Fotobuch" (PDF presentation / photo book) | Memory album for viewing, sharing or printing |
 
-Wählen Sie «ZIP-Archiv exportieren & teilen» oder «PDF-Buch generieren & teilen» und sichern Sie das Ergebnis über das Teilen-Menü an einem vertrauenswürdigen Ort. Prüfen Sie die Datei nach dem Export. Fehlende Mediendateien kann die App nicht in ein Archiv aufnehmen.
+Choose "ZIP-Archiv exportieren & teilen" or "PDF-Buch generieren & teilen" and save the result in a trusted place using the share sheet. Check the file after the export. The app cannot put missing media files into an archive.
 
-!!! warning "Exportdateien sind unverschlüsselt"
-    PDF-, ZIP-, JSON- und CSV-Dateien sind nicht durch das Familien-Passwort geschützt. Wer Zugriff auf einen Export hat, kann dessen Inhalt lesen. Die App kann verschickte oder anderweitig kopierte Dateien später nicht löschen.
+!!! warning "Export files are not encrypted"
+    PDF, ZIP, JSON and CSV files are not protected by the family password. Anyone with access to an export can read its content. The app cannot later delete files that were sent or copied elsewhere.
 
-Synchronisation gleicht auch Löschungen ab. Bewahren Sie deshalb zusätzlich eine unabhängige Sicherung auf. Das PDF ersetzt kein importierbares Datenarchiv.
+Sync also passes on deletions. Keep an independent backup as well for this reason. The PDF does not replace an importable data archive.
 
-## Ein Kind importieren
+## Importing a child
 
-Wählen Sie «Profil › Kind aus Datei importieren (.zip / .json)» und öffnen Sie die Sicherung. Ein Import erhält ein neues Kinderprofil, damit ein bestehendes Profil nicht überschrieben wird. Prüfen Sie anschliessend Ereignisse und Medien, bevor Sie eine ältere Kopie entfernen.
+Choose "Profil › Kind aus Datei importieren (.zip / .json)" (Profile › Import child from file) and open the backup. An import creates a new child profile so that no existing profile is overwritten. Check events and media afterwards before you remove an older copy.
 
-Ein JSON-Import enthält keine separat gespeicherten Medien. Nutzen Sie für eine Sicherung mit verfügbaren Medien das ZIP-Archiv. Teilen Sie ein importiertes Profil nur dann erneut mit der Familie, wenn dies beabsichtigt ist.
+A JSON import contains no separately stored media. Use the ZIP archive for a backup with the available media. Only share an imported profile with the family again if you mean to.
 
-## Unlesbare Datendateien
+## Unreadable data files
 
-Kann die App eine lokale Datendatei nicht lesen, legt sie diese unverändert beiseite und zeigt einen Hinweis. Unter «Profil › Gesicherte Datendateien» können Sie die Kopie prüfen oder teilen. Ist sie mit der installierten Version lesbar, bietet die App «Wiederherstellen …» an. Dabei wird die aktuelle Datei ebenfalls gesichert, bevor sie ersetzt wird. Das Löschen einer solchen Kopie lässt sich nicht rückgängig machen.
+If the app cannot read a local data file, it moves the file aside unchanged and shows a notice. Under "Profil › Gesicherte Datendateien" (Profile › Saved data files) you can inspect or share the copy. If the installed version can read it, the app offers "Wiederherstellen …" (Restore). The current file is then saved as well before it is replaced. Deleting such a copy cannot be undone.
 
-## Was die Löschaktionen bewirken
+## What the delete actions do
 
-Erstellen Sie vor einer Löschung eine Sicherung der Daten, die Sie behalten möchten. Lesen Sie im Bestätigungsdialog, ob Sie zusätzlich lokale Kopien entfernen.
+Before deleting anything, back up the data you want to keep. Read in the confirmation dialog whether you are also removing local copies.
 
-| Aktion | Wirkung |
+| Action | Effect |
 | --- | --- |
-| Kinderprofil löschen | Bei einem geteilten Kind muss zunächst der Server die Löschung bestätigen. Andere aktualisierte Geräte übernehmen sie beim nächsten Abgleich. Bei einem Fehler bleibt das lokale Profil für einen erneuten Versuch erhalten. |
-| «Abmelden» | Entfernt die Sitzung und gespeicherte Familien-Passwörter. Konto und Serverinhalte bleiben bestehen. Nach der Anmeldung brauchen Sie das Familien-Passwort erneut. |
-| «Familie verlassen …» | Entfernt Ihre Mitgliedschaft. Bleiben Mitglieder, behalten sie die Familie und die geteilten Inhalte. Beim letzten Mitglied werden die Familie und ihre Serverinhalte nach Bestätigung gelöscht. Das Konto bleibt bestehen. |
-| «Familiengruppe für alle löschen …» | Löscht die Familie und ihre geteilten Kinderpakete auf dem Server für alle Mitglieder. Die Benutzerkonten bleiben bestehen. Jedes Mitglied kann diese Aktion nach erneuter Passworteingabe und Bestätigung ausführen. |
-| «Konto löschen …» | Löscht Ihr Konto und Ihre Mitgliedschaft. Geteilte Inhalte bleiben bei den anderen Mitgliedern. Beim letzten Mitglied werden auch die Familie und ihre Serverinhalte gelöscht. Lokale Kinderdaten bleiben erhalten, sofern Sie deren zusätzliche Löschung nicht wählen. |
-| «Alle Daten zurücksetzen» | Setzt die lokalen App-Daten zurück. Verwenden Sie dies nicht als Ersatz für eine ausdrücklich bestätigte Löschung auf dem Server. |
+| Delete child profile | For a shared child, the server must confirm the deletion first. Other updated devices apply it at their next sync. If it fails, the local profile stays so you can try again. |
+| "Abmelden" (Sign out) | Removes the session and the stored family passwords. Account and server content remain. After signing in again you need the family password again. |
+| "Familie verlassen …" (Leave family) | Removes your membership. If members remain, they keep the family and the shared content. For the last member, the family and its server content are deleted after confirmation. The account remains. |
+| "Familiengruppe für alle löschen …" (Delete family group for everyone) | Deletes the family and its shared child bundles on the server for all members. The user accounts remain. Any member can do this after entering the password again and confirming. |
+| "Konto löschen …" (Delete account) | Deletes your account and membership. Shared content stays with the other members. For the last member, the family and its server content are deleted too. Local children's data stays unless you also choose to delete it. |
+| "Alle Daten zurücksetzen" (Reset all data) | Resets the local app data. Do not use it instead of an explicitly confirmed deletion on the server. |
 
-Das Verlassen einer Familie und deren Löschung bieten ebenfalls eine gesonderte Wahl für das Entfernen betroffener lokaler Kinder. Kopien auf anderen Geräten, Exporte und Gerätesicherungen können bestehen bleiben. Daten aus dem Sync-Dienst können nach ihrer Löschung vorübergehend in Serversicherungen verbleiben. Die [Datenschutzerklärung](https://cblum.ch/apps/betterbabybook/privacy/) erläutert Aufbewahrung und Löschgrenzen.
+Leaving or deleting a family also offers a separate choice to remove the affected local children. Copies on other devices, exports and device backups may remain. Data from the sync service may remain in server backups for a while after deletion. The [privacy policy](https://cblum.ch/en/projects/betterbabybook/privacy/) explains retention and the limits of deletion.

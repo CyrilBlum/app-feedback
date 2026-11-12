@@ -1,114 +1,110 @@
-# Funktionen
+# Features
 
-Die Aufnahmen zeigen die echte App, Version 1.4.2 (16), auf eigens eingerichteten Simulatoren. Das Testkind, seine Einträge und Messwerte sind fiktiv. Roboter, Bauklötze und Kuchen sind eigens erzeugte Illustrationen im App-Inhalt. Die nummerierten Markierungen erläutern die Bedienelemente.
+The captures show the real app, version 1.4.2 (16), on dedicated simulators. The test child, its entries and measurements are fictional. The robot, building blocks and cake are illustrations made for the app content. The numbered markers explain the controls. The app's interface is in German.
 
-## Übersicht
-
-<div class="screenshot-guide" markdown="1">
-
-<div class="screenshot-guide__image" markdown="1">
-
-![Übersicht mit nummerierten Bedienelementen](img/dashboard.webp){ width=260 }
-
-</div>
-
-<div class="screenshot-guide__details" markdown="1">
-
-| Nr. | Element | Funktion |
-| --- | --- | --- |
-| 1 | Kinderkarte | Zeigt das aktive Kind, Alter und zuletzt erfasste Masse. Der Stift öffnet die Profilbearbeitung. |
-| 2 | Schnell-Tracking und Verlauf | Die Kacheln erfassen Alltagseinträge. «Verlauf» öffnet die bisherigen Protokolle. |
-| 3 | Wachstum & WHO-Diagramme | Öffnet Messwerte und Referenzkurven. |
-
-</div>
-
-</div>
-
-Die Tabs unten wechseln zwischen Übersicht, Meilensteinen, Galerie, Timeline und Profil.
-
-
-## Kinder und Profile
+## Overview
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Profile und Einstellungen mit nummerierten Bedienelementen](img/profile.webp){ width=260 }
+![Overview with numbered controls](img/dashboard.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Kinderzeile | Wählt das Kind. Die Schaltflächen bearbeiten das Profil oder starten die bestätigte Löschung. |
-| 2 | Weiteres Kind / Baby hinzufügen | Erstellt ein weiteres Profil. |
-| 3 | Kind aus Datei importieren | Öffnet eine ZIP- oder JSON-Sicherung. |
-| 4 | Familien-Synchronisation | Öffnet Anmeldung, Familie und Freigaben. |
-| 5 | Gesundheit | Öffnet wichtige Nummern und Informationen zur Einführung von Lebensmitteln. |
+| 1 | Child card | Shows the active child, age and the latest measurements. The pencil opens the profile editor. |
+| 2 | Quick tracking and "Verlauf" (History) | The tiles record daily entries. "Verlauf" opens the previous logs. |
+| 3 | "Wachstum & WHO-Diagramme" (Growth & WHO charts) | Opens measurements and reference curves. |
 
 </div>
 
 </div>
 
-Unter «Profil» verwalten Sie die Kinder. Sie können Name, Geburtsdatum und Foto bearbeiten, weitere Kinder hinzufügen und zwischen den Profilen wechseln. Ereignisse und Alltagsprotokolle gehören jeweils zum ausgewählten Kind. Prüfen Sie deshalb vor einem Eintrag, welches Profil aktiv ist.
+The tabs at the bottom switch between "Übersicht" (Overview), "Meilensteine" (Milestones), "Galerie" (Gallery), "Timeline" and "Profil" (Profile).
 
-Spitznamen können eigene Fotos und Sprachaufnahmen enthalten. Für eine Aufnahme braucht die App den Mikrofonzugriff. Fotos werden erst übernommen, wenn Sie sie auswählen. Zu Ereignissen importierte Bilder werden für die App verkleinert. Bewahren Sie die Originale separat auf.
-
-
-## Meilensteine und Erinnerungen
+## Children and profiles
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Meilensteine mit nummerierten Bedienelementen](img/milestones.webp){ width=260 }
+![Profiles and settings with numbered controls](img/profile.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Eigene | Fügt einen eigenen Meilenstein hinzu. |
-| 2 | Suche | Sucht nach Meilenstein, Zitat oder Notiz. |
-| 3 | Kategorien und Filter | Begrenzt die Liste auf Kategorien oder erreichte Meilensteine. |
-| 4 | Ereigniskarte | Öffnet den Eintrag mit Datum, Notizen und Fotos. |
+| 1 | Child row | Selects the child. The buttons edit the profile or start the confirmed deletion. |
+| 2 | "Weiteres Kind / Baby hinzufügen" (Add another child / baby) | Creates another profile. |
+| 3 | "Kind aus Datei importieren" (Import child from file) | Opens a ZIP or JSON backup. |
+| 4 | "Familien-Synchronisation" (Family sync) | Opens sign-in, family and sharing. |
+| 5 | "Gesundheit" (Health) | Opens important phone numbers and information on introducing solid food. |
 
 </div>
 
 </div>
 
-«Meilensteine» enthält vorgegebene Entwicklungsschritte und Vorsorgeuntersuchungen. Sie können auch eigene Ereignisse anlegen, Datum und Notizen erfassen und Fotos hinzufügen. Einträge zu Vorsorgeuntersuchungen können Gewicht, Länge und Kopfumfang aufnehmen.
+Under "Profil" you manage the children. You can edit name, date of birth and photo, add more children and switch between profiles. Events and daily logs always belong to the selected child, so check which profile is active before you add an entry.
 
-Ein Referenzalter gibt keine Frist vor, bis zu der ein Kind einen Entwicklungsschritt erreicht haben muss. Die Erfahrungspunkte und Level sind eine spielerische Darstellung der erfassten Erinnerungen und keine Entwicklungsbewertung.
+Nicknames can have their own photos and voice recordings. A recording needs microphone access. Photos are only added once you select them. Images imported into events are downsized for the app, so keep the originals separately.
 
-
-## Galerie
+## Milestones and memories
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Galerie mit nummerierten Bedienelementen](img/gallery.webp){ width=260 }
+![Milestones with numbered controls](img/milestones.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Plus | Öffnet einen neuen Foto- oder Erinnerungseintrag. Beim Filter «Zitate» öffnet sich ein neuer Zitateintrag. |
-| 2 | Suche | Durchsucht die Galerie. |
-| 3 | Inhaltstyp | Wechselt zwischen allen Inhalten, Fotos, Spitznamen und Zitaten. |
-| 4 | Vorschaubild | Öffnet den Inhalt. Fotos können Sie im Bildbetrachter vergrössern. |
+| 1 | "Eigene" (Custom) | Adds your own milestone. |
+| 2 | Search | Searches milestones, quotes and notes. |
+| 3 | Categories and filters | Limits the list to categories or to reached milestones. |
+| 4 | Event card | Opens the entry with date, notes and photos. |
 
 </div>
 
 </div>
 
-Die Galerie sammelt die Inhalte des aktiven Kindes.
+"Meilensteine" contains predefined developmental steps and check-ups. You can also create your own events, enter date and notes and add photos. Check-up entries can hold weight, length and head circumference.
 
+A reference age is not a deadline by which a child must have reached a step. Experience points and levels are a playful view of the recorded memories, not an assessment of development.
+
+## Gallery
+
+<div class="screenshot-guide" markdown="1">
+
+<div class="screenshot-guide__image" markdown="1">
+
+![Gallery with numbered controls](img/gallery.webp){ width=260 }
+
+</div>
+
+<div class="screenshot-guide__details" markdown="1">
+
+| No. | Element | Function |
+| --- | --- | --- |
+| 1 | Plus | Opens a new photo or memory entry. With the "Zitate" (Quotes) filter it opens a new quote. |
+| 2 | Search | Searches the gallery. |
+| 3 | Content type | Switches between all content, photos, nicknames and quotes. |
+| 4 | Thumbnail | Opens the item. You can zoom photos in the image viewer. |
+
+</div>
+
+</div>
+
+The gallery collects the content of the active child.
 
 ## Timeline
 
@@ -116,79 +112,78 @@ Die Galerie sammelt die Inhalte des aktiven Kindes.
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Timeline mit nummerierten Bedienelementen](img/timeline.webp){ width=260 }
+![Timeline with numbered controls](img/timeline.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Plus | Fügt ein Ereignis hinzu. |
-| 2 | Mehr | Bietet die Sortierung «Älteste zuerst» oder «Neueste zuerst». |
-| 3 | Ereignis | Zeigt Datum, Kategorie, Notizen und hinterlegte Medien in zeitlicher Reihenfolge. |
+| 1 | Plus | Adds an event. |
+| 2 | More | Offers the sort orders "Älteste zuerst" (Oldest first) and "Neueste zuerst" (Newest first). |
+| 3 | Event | Shows date, category, notes and attached media in chronological order. |
 
 </div>
 
 </div>
 
 
-## Alltag und Wachstum
+## Daily logs and growth
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Wachstum mit nummerierten Bedienelementen](img/growth.webp){ width=260 }
+![Growth with numbered controls](img/growth.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Messgrösse | Wechselt zwischen Gewicht, Grösse, Kopf, Temperatur und Aktivität. |
-| 2 | Zeitraum | Wählt den angezeigten Altersbereich. Die Lupen ändern den Zoom. |
-| 3 | Diagramm | Zeigt eingetragene Werte. Beim Gewicht stehen WHO-Referenzen daneben. |
-| 4 | Plus | Fügt einen Mess- oder Protokolleintrag hinzu. |
+| 1 | Measure | Switches between weight, height, head, temperature and activity. |
+| 2 | Period | Chooses the age range shown. The magnifiers change the zoom. |
+| 3 | Chart | Shows the values entered. For weight, WHO references are shown alongside. |
+| 4 | Plus | Adds a measurement or log entry. |
 
 </div>
 
 </div>
 
-Das Schnell-Tracking auf «Übersicht» erfasst Stillen, Fläschchen, Windeln und Messwerte wie Gewicht, Länge, Kopfumfang oder Temperatur. In den Verlaufslisten können Sie Einträge bearbeiten oder entfernen. Nach dem Löschen eines Protokolleintrags steht vorübergehend «Rückgängig» zur Verfügung.
+Quick tracking on "Übersicht" records breastfeeding, bottles, nappies and measurements such as weight, length, head circumference or temperature. In the history lists you can edit or remove entries. After deleting a log entry, "Rückgängig" (Undo) is available for a short time.
 
-«Wachstum & WHO-Diagramme» stellt Ihre Messwerte mit WHO-Referenzkurven dar. Massgebend ist das Alter zum Zeitpunkt der Messung. Die Kurven ersetzen keine fachliche Beurteilung. Eingabe- oder Messfehler können die Darstellung verändern.
+"Wachstum & WHO-Diagramme" shows your measurements with WHO reference curves. The age at the time of measurement is used. The curves do not replace a professional assessment. Input or measuring errors can change what the chart shows.
 
-Unter «Profil › Gesundheit» finden Sie «Wichtige Nummern» und «Einführung der Lebensmittel». Diese Informationen dienen der Orientierung. Besprechen Sie Fragen zur Versorgung Ihres Kindes mit medizinischem Fachpersonal. Im Notfall wenden Sie sich an den örtlichen Rettungsdienst.
+Under "Profil › Gesundheit" you find "Wichtige Nummern" (Important numbers) and "Einführung der Lebensmittel" (Introducing solid food). This information is for orientation only. Discuss questions about your child's care with medical professionals. In an emergency, contact your local emergency services.
 
+## Export and restore
 
-## Export und Wiederherstellung
+"Profil › Daten-Export & Sicherung › Vollständiger Daten-Export" (Profile › Data export & backup › Full data export) offers a ZIP data archive and a PDF photo book. The ZIP is for backups and later import, the PDF for viewing or printing. Details and limits are in [Backup and deletion](backup-and-deletion.md).
 
-«Profil › Daten-Export & Sicherung › Vollständiger Daten-Export» bietet ein ZIP-Datenarchiv und ein PDF-Fotobuch. Das ZIP dient der Sicherung und dem späteren Import, das PDF der Ansicht oder dem Druck. Einzelheiten und Grenzen stehen unter [Sichern und Löschen](backup-and-deletion.md).
-
-## Einstellungen und Neuigkeiten
+## Settings and what's new
 
 <div class="screenshot-guide" markdown="1">
 
 <div class="screenshot-guide__image" markdown="1">
 
-![Neuigkeiten mit nummerierten Bedienelementen](img/whats-new.webp){ width=260 }
+![What's new with numbered controls](img/whats-new.webp){ width=260 }
 
 </div>
 
 <div class="screenshot-guide__details" markdown="1">
 
-| Nr. | Element | Funktion |
+| No. | Element | Function |
 | --- | --- | --- |
-| 1 | Version und Eintrag | Ordnet die Änderung einer App-Version zu und beschreibt die Funktion. |
-| 2 | Ort | Nennt den Bereich, in dem Sie die Funktion finden. |
-| 3 | Weiter | Schliesst die nach dem Update geöffnete Neuigkeitenansicht. |
+| 1 | Version and entry | Assigns the change to an app version and describes the function. |
+| 2 | Location | Names the area where you find the function. |
+| 3 | "Weiter" (Continue) | Closes the what's-new view that opened after an update. |
 
 </div>
 
 </div>
 
-Unter «Profil › App › Neuigkeiten» finden Sie die Änderungen. Nach einem Update mit neuen Funktionen öffnet sich die Ansicht einmal mit diesen Neuerungen. Beim ersten Start wird keine Update-Meldung angezeigt.
+Under "Profil › App › Neuigkeiten" (Profile › App › What's new) you find the changes. After an update with new functions, the view opens once with those new functions. No update message is shown on first launch.
 
-«Profil › App › Feedback & Ideen senden» bereitet eine E-Mail vor. Unter «Haftungsausschluss» bleiben die Hinweise zu Nutzung und Gesundheit zugänglich. Die Datenschutzerklärung finden Sie im Abschnitt «Über».
+"Profil › App › Feedback & Ideen senden" (Send feedback & ideas) prepares an e-mail. "Haftungsausschluss" (Disclaimer) keeps the notes on use and health available. The privacy policy is in the "Über" (About) section.

@@ -17,10 +17,13 @@ To update the documented apps' changelogs from sibling private checkouts, run
 `scripts/sync-betterbabybook.sh`, `scripts/sync-cycloputer.sh`,
 `scripts/sync-pixelporter.sh` and `scripts/sync-rapidreminders.sh` as needed.
 The new scripts accept `BETTERBABYBOOK_ROOT`, `CYCLOPUTER_ROOT` and
-`RAPIDREMINDERS_ROOT` when those checkouts are elsewhere. Better Baby Book
-copies its generated `docs/CHANGELOG.md`; regenerate that file in the app
-repository after changing its canonical changelog. Cycloputer and Rapid
-Reminders read their canonical JSON directly without modifying the apps.
+`RAPIDREMINDERS_ROOT` when those checkouts are elsewhere. The docs site is
+English only. Better Baby Book's canonical changelog is German, so its script
+combines `docs/changelog/neuigkeiten.json` with the English texts in
+`scripts/better-baby-book-changelog.en.json` and stops while an entry is missing
+there or its German text changed. Cycloputer and Rapid Reminders read their
+canonical JSON directly without modifying the apps. A sync publishes every entry
+in the app's source, including unreleased ones; check the diff before pushing.
 
 Before publishing, install `requirements.txt` in a virtual environment and run
 `mkdocs build --strict`. A push to `main` publishes the site through GitHub Pages.

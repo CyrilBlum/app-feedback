@@ -36,12 +36,12 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Better Baby Book:
-      - Einstieg: better-baby-book/index.md
-      - Funktionen: better-baby-book/features.md
-      - Familien-Synchronisation: better-baby-book/family-sync.md
-      - Sichern und Löschen: better-baby-book/backup-and-deletion.md
-      - Neuigkeiten: better-baby-book/changelog.md
-      - Feedback und Entwicklung: better-baby-book/feedback.md
+      - Overview: better-baby-book/index.md
+      - Features: better-baby-book/features.md
+      - Family sync: better-baby-book/family-sync.md
+      - Backup and deletion: better-baby-book/backup-and-deletion.md
+      - Changelog: better-baby-book/changelog.md
+      - Feedback and development: better-baby-book/feedback.md
   - Cycloputer:
       - Overview: cycloputer/index.md
       - Features: cycloputer/features.md

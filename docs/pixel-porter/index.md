@@ -9,7 +9,7 @@ Mirrors the iPhone photo library to a self-hosted WebDAV server, with reviewed, 
 | Data path | iPhone → your server directly. Nothing passes through a developer server |
 | Local data | Sync records and logs in the app container; server password in the Keychain; host, user and paths in app settings |
 | Without a server | Photo browser, review tool and editor |
-| Links | [Product page](https://cblum.ch/apps/pixelporter/), [privacy policy](https://cblum.ch/apps/pixelporter/privacy/), [changelog](changelog.md), [feedback](feedback.md) |
+| Links | [Product page](https://cblum.ch/en/projects/pixelporter/), [privacy policy](https://cblum.ch/en/projects/pixelporter/privacy/), [changelog](changelog.md), [feedback](feedback.md) |
 
 ## Pages
 
