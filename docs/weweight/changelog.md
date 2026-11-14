@@ -23,6 +23,12 @@ The same changes are listed in Settings › What's New. These entries describe i
 - **Emptied fields.** An emptied weight or target field disables Save instead of saving the previous value.
 - **CSV import error feedback.** Selecting an inaccessible or unreadable file displays an alert instead of silently returning.
 - **Number linebreaking and sheet idiom.** Weight figures stay on a single line at large accessibility sizes, and the help sheet uses the standard close icon.
+- **Interrupted editors.** Measurement and phase drafts reopen after an interruption. Cancelling changed input asks before discarding it, including date and rate changes.
+- **CSV safeguards.** Imports validate the header, dates and target weights before asking to replace your phase history. Failed downloads show an error.
+- **Consistent averages and faster charts.** The dashboard includes the same seven calendar days as the chart and excludes future measurements. Larger histories need less chart calculation.
+- **Cancellable imports and exports.** Health reads and GitHub exports can be cancelled. Late Health results cannot restore deleted imported copies, and repository tests clear outdated results when settings change.
+- **Feedback privacy and help.** Device details in feedback start switched off. Help and Settings link the English user guide and privacy policy, and numeric editors offer a keyboard Done button.
+- **Readable large text.** The latest weight stays visible at accessibility text sizes, and change descriptions use the full available width.
 
 ## 1.1.1 (2026-10-26)
 

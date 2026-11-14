@@ -10,7 +10,7 @@ Manual entries can be edited and deleted in **Weight data**. Deletion asks for c
 
 ## Goal history CSV
 
-The main screen provides actions to import and download the goal history. Download a copy before replacing or deleting a plan. Import replaces the goal history when the file is valid; an invalid or empty file keeps the existing history and reports an error.
+The main screen provides actions to import and download the goal history. Download a copy before replacing or deleting a plan. Import replaces the goal history when the file is valid; an invalid or empty file keeps the existing history and reports an error. From the next update after version 1.2, every row is checked first (header, real calendar dates, positive target weights), and **Replace goal history?** asks before the plan is replaced. A failed download is reported.
 
 The required header is:
 
@@ -24,7 +24,7 @@ Dates use `YYYY-MM-DD`. Phase names are `Bulk`, `Cut` or `Maintenance`, and targ
 
 Local tracking does not require GitHub. In **Settings**, enter the repository owner, repository name, weight-file path and a fine-grained token with Contents read/write permission limited to the intended repository. Use a private repository and check its collaborators before uploading health information. The token is kept in the iOS Keychain.
 
-**Test Repository** makes a network request to check access. Once the connection is configured, **Upload phase plan** and **Upload weight history** appear at the end of the main screen. Each upload first shows the content and destination and asks for confirmation. Weight-history exports include Health measurements as well as manual entries.
+**Test Repository** makes a network request to check that the repository can be reached. Whether the token may write is only known when an upload runs. Once the connection is configured, **Upload phase plan** and **Upload weight history** appear at the end of the main screen. Each upload first shows the content and destination and asks for confirmation. Weight-history exports include Health measurements as well as manual entries. From the next update after version 1.2, a running upload can be stopped with **Cancel Export**. GitHub may already have received a request sent before cancelling, so check the repository before retrying.
 
 The weight CSV uses the header `Date,Weight (kg)` and ISO timestamps. The default weight file is `Health Data/body-weight-all.csv`; the phase-plan file is `WeWeight/weight-phases.csv`. Files committed to GitHub can remain in repository history after replacement or deletion.
 
