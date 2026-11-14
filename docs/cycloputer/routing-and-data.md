@@ -2,9 +2,9 @@
 
 ## Route calculation
 
-Cycloputer first tries the downloaded routing data. A successful local calculation takes place on the iPhone. If local routing cannot produce a route, the app tries Apple Maps directions, which send the waypoints to Apple. Bicycle and Speed pedelec modes request cycling directions from Apple. With the routing package, Speed pedelec uses the road bike profile, which keeps to paved ways; neither source checks restrictions for mopeds. Sections without directions remain marked straight-line estimates.
+Cycloputer first tries the downloaded routing data. A successful local calculation takes place on the iPhone. If local routing cannot produce a route and the Apple Maps fallback is enabled, the app tries Apple Maps directions, which send the waypoints to Apple. Bicycle and Speed pedelec modes request cycling directions from Apple. With the routing package, Speed pedelec uses the road bike profile, which keeps to paved ways; neither source checks restrictions for mopeds. Sections without directions remain marked straight-line estimates.
 
-Downloading routing data therefore does not provide a switch that forbids every Apple request. Check the route source shown in Route details. A GPX file supplies its own route line and is not automatically matched to roads.
+Settings › General › Apple Maps lets you disable the Apple routing fallback and place search independently. With the fallback disabled, missing or unsuccessful local routing produces a marked straight-line estimate. Check the route source shown in Route details. A GPX file supplies its own route line and is not automatically matched to roads.
 
 The elevation profile uses elevations from the GPX file or Cycloputer's terrain model, with its source shown. It is not a survey of current conditions. Riding and arrival times follow the elevation profile and the speed on level ground set for the travel mode in Settings › General › Riding time estimate (see [riding time](features.md#riding-time)).
 
@@ -44,3 +44,7 @@ The app does not encrypt GPX or KML files. Recordings can include precise coordi
 Settings › General › Clear Temporary Files & Map Cache removes temporary KML exports and cached map data while keeping saved GPX routes. This is not a promise of secure erasure from backups or copies held by other apps.
 
 The app's About screen contains the full safety and liability notice and a link to its privacy policy. Ride and performance information is general information, not medical advice or a fitness assessment. Mandatory legal rights and liability remain unaffected.
+
+## Optional encrypted backup
+
+Settings › Account & Backup offers an optional account for routes, pins and folders. Content is encrypted on the device before upload. Keep the recovery key. The account can be deleted in the app, keeping local data by default. See the [privacy policy](https://cblum.ch/en/projects/cycloputer/privacy/) for processing and retention.

@@ -40,7 +40,7 @@ Overlays control cycle routes, hiking routes, public transport stops and points 
 
 The position control cycles the map's follow mode. The compass returns the map to north.
 
-Use the magnifying glass for place/address search or nearby categories such as toilets and shops. Place/address search uses Apple. Nearby search uses Cycloputer's map data and works with the downloaded map. Tap a map symbol to inspect its name and kind. Swiss public transport stops can show departures and an SBB link, which require a connection.
+Open Search in the map menu for place/address search or nearby categories such as toilets and shops. Place/address search uses Apple. Nearby search uses Cycloputer's map data and works with the downloaded map. Tap a map symbol to inspect its name and kind. Public transport stops in Switzerland and supported railway stations abroad can show departures and a national railway link, which require a connection.
 
 ### 3D terrain
 
@@ -215,7 +215,7 @@ Pinch the map with two fingers during navigation to zoom in or out around your p
 
 Instructions depend on route geometry, routing and map data, as well as GPS reception. Read signs and assess the route independently. Navigation does not confirm access rights or road conditions.
 
-Simulate previews the route without recording a real ride. Its controls let you pause, adjust progress and inspect climbs. Simulation figures do not measure your fitness or predict your actual performance.
+Simulate previews the route without recording a real ride. Its controls let you pause, adjust progress and inspect climbs. Choose the travel mode beside the speed slider; hiking has a lower range and finer speed steps. Simulation figures do not measure your fitness or predict your actual performance.
 
 <div class="screenshot-guide" markdown="1">
 
@@ -249,6 +249,6 @@ The red record control starts a ride. The dashboard shows speed, distance and ti
 
 Settings › General offers metric or imperial units, the speeds for the riding time estimate, map type and appearance, voice guidance, offline data, Keep display on and Battery saver. Settings › Climb View controls grade segments, colours and the summit celebration.
 
-Settings › Sensors currently marks heart rate, cadence and power as unavailable. Cycloputer does not connect to Bluetooth sensors or read Apple Health data.
+Settings › Sensors connects compatible Bluetooth heart rate, power and cadence sensors. Values appear during navigation and recording and can be included in recorded GPX files, encrypted account backups and shared exports. Cycloputer does not read Apple Health data.
 
 About contains Show Feature Walkthrough, Map Legend, What's New, Feedback & Development, contact and privacy information, and the safety and liability notice.
