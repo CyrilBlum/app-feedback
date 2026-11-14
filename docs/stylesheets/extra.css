@@ -51,3 +51,9 @@
 }
 .md-nav--secondary { border-left: 1px solid var(--md-default-fg-color--lightest); padding-left: .8rem; }
 .md-nav--secondary > .md-nav__title { font-size: .65rem; text-transform: uppercase; letter-spacing: .04em; }
+
+/* Mac windows need enough width to read their toolbar and settings. */
+.screenshot-guide--wide { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+.screenshot-guide--wide .screenshot-guide__image { grid-column: 1; grid-row: 1; }
+.screenshot-guide--wide .screenshot-guide__details { grid-column: 1; grid-row: 2; }
+.md-typeset .screenshot-guide--wide .screenshot-guide__image img { max-width: 100%; }

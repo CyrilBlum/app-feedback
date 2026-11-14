@@ -64,6 +64,13 @@ nav:
       - Changelog: rapid-reminders/changelog.md
       - Feedback and development: rapid-reminders/feedback.md
 
+  - ScreenSnipStudio:
+      - Overview: screensnipstudio/index.md
+      - Features: screensnipstudio/features.md
+      - Projects, exports and privacy: screensnipstudio/projects-and-sharing.md
+      - Changelog: screensnipstudio/changelog.md
+      - Feedback and development: screensnipstudio/feedback.md
+
   - TimeTrackingTool:
       - Overview: timetrackingtool/index.md
       - iPhone features: timetrackingtool/features.md

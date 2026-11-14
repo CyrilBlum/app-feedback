@@ -1,10 +1,10 @@
 # Data and exports
 
-## Local measurements and Apple Health
+## Local measurements and Health
 
 Manual measurements and imported Health copies are kept locally. **Import Weight from Health** requests read access to body weight and shows progress and a result. If an import fails or returns no measurements, the existing history is kept. An empty result alone does not establish whether access was denied.
 
-Imported measurements are read-only in WeWeight. **Delete Imported Copies** asks for confirmation and removes the imported copies from WeWeight, while keeping manual entries. It does not delete measurements from Apple Health. Importing again can bring Health measurements back.
+Imported measurements are read-only in WeWeight. **Delete Imported Copies** asks for confirmation and removes the imported copies from WeWeight, while keeping manual entries. It does not delete measurements from Health. Importing again can bring Health measurements back.
 
 Manual entries can be edited and deleted in **Weight data**. Deletion asks for confirmation. A **Data storage** alert means saved data could not be read; the app preserves the unreadable data rather than silently replacing it. Keep the alert details when reporting the problem, without posting health information publicly.
 

@@ -1,6 +1,6 @@
 # WeWeight
 
-WeWeight keeps a weight log and a plan of self-chosen bulk, cut and maintenance phases. You can enter measurements yourself or import body weight from Apple Health. A chart shows measurements, a trailing average and your planned targets.
+WeWeight keeps a weight log and a plan of self-chosen bulk, cut and maintenance phases. You can enter measurements yourself or import body weight from Health. A chart shows measurements, a trailing average and your planned targets.
 
 | Topic | Details |
 | --- | --- |
@@ -22,6 +22,6 @@ This guide describes the current implementation, including changes in version 1.
 The [feature guide](features.md) explains the numbered controls. [Data and exports](data-and-exports.md) covers Health copies, CSV files and GitHub.
 
 !!! warning "Health and use"
-    WeWeight is for personal tracking and planning. It does not provide medical advice, diagnosis or treatment. Measurements, trends, target bands and rate labels are not clinically validated assessments or recommendations. Consult a qualified healthcare professional about weight or health concerns, and do not change treatment based on this app. Keep separate copies of information you need. Availability and accuracy are not guaranteed; mandatory legal rights and liability remain unaffected.
+    WeWeight is for personal tracking and planning. It does not provide medical advice, diagnosis or treatment. Measurements, trends, target bands and rate labels are not clinically validated assessments or recommendations. Consult a qualified healthcare professional about weight or health concerns, and do not change treatment based on this app. Keep separate copies of information you need. Availability and accuracy are not guaranteed. Use is at your own risk. Liability is limited only where legally permitted, with mandatory rights and liability, including intent, gross negligence and personal injury, preserved.
 
 [Product page](https://cblum.ch/en/projects/weweight/) and [privacy policy](https://cblum.ch/en/projects/weweight/privacy/).

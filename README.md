@@ -19,6 +19,7 @@ To update changelogs from local app checkouts, run the relevant script:
 - `scripts/sync-cycloputer.sh` (`CYCLOPUTER_ROOT`)
 - `scripts/sync-pixelporter.sh` (`PIXELPORTER_ROOT`)
 - `scripts/sync-rapidreminders.sh` (`RAPIDREMINDERS_ROOT`)
+- `scripts/sync-screensnipstudio.sh` (`SCREENSNIPSTUDIO_ROOT`, defaults to `/Applications/ScreenSnipStudio`)
 - `scripts/sync-timetrackingtool.sh` (`TIMETRACKINGTOOL_ROOT`)
 - `scripts/sync-vocabvault.sh` (`VOCABVAULT_ROOT`)
 - `scripts/sync-weweight.sh` (`WEWEIGHT_ROOT`)
