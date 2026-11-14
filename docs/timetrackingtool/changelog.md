@@ -9,6 +9,10 @@ Generated from the iPhone app's release notes, also shown under Tools › What's
 - Sync between devices. An optional account syncs projects, tags and entries between your devices, end-to-end encrypted on the device. Calendar subscriptions stay on the iPhone. Includes password change, recovery key, account reset by e-mail and account deletion. (Sidebar › Settings › Account & Sync)
 - Sub-projects. Projects / areas can have a parent, to any depth. The project list shows them as a tree; deleting a project moves its sub-projects up one level. (Projects / Areas › Edit › Parent)
 
+### Fixed
+
+- Safer sync and saved changes. Stopped timers remain stopped when another device edits them. A first sync asks before replacing different local copies. Damaged sync history is kept, failed saves are reported, and the online user guide is linked from About.
+
 ## 1.3 (2026-11-03)
 
 ### New
