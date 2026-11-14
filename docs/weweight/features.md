@@ -35,8 +35,8 @@ The screenshots show fictional demonstration data in WeWeight 1.2 (9), captured 
 | # | Element | Function |
 | --- | --- | --- |
 | 1 | Add measurement | Use + to enter a weight in kilograms and a date, then Save. Tap a manual entry to edit it. |
-| 2 | Import Weight from Health | Read body-weight measurements from Apple Health after granting access. Progress and a result are shown. |
-| 3 | Delete Imported Copies | Remove WeWeight’s imported copies after confirmation. Manual entries and the data in Apple Health stay. |
+| 2 | Import Weight from Health | Read body-weight measurements from Health after granting access. Progress and a result are shown. |
+| 3 | Delete Imported Copies | Remove WeWeight’s imported copies after confirmation. Manual entries and the data in Health stay. |
 | 4 | Measurement list | Each row shows its date, weight and source. Swipe a manual entry to delete it, then confirm. Sample labels appear only in these fictional demonstration captures. |
 
 </div>
