@@ -44,6 +44,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 - **Steady Sync button.** When everything is already backed up, the Sync button no longer switches back and forth between Sync and Stop after you tap it. *(Sync tab)*
 - **Select with marked photos.** On narrow iPhones such as the iPhone mini, the Select button in the Photos tab no longer disappears into the ••• menu while photos are marked for deletion. Marked photos are now deleted or cleared from a compact menu next to Select. *(Photos tab)*
+- **Albums load reliably.** The Albums list in the Photos tab no longer keeps loading while Apple Photos is still processing new photos, for example right after an import. *(Photos tab)*
 - **Compact layout and readability.** Main navigation titles and action buttons no longer truncate on compact screens or with larger text sizes. Status texts use readable high-contrast styling in light mode, and informational sheets close with the standard close button. *(App-wide)*
 - **Date while scrubbing.** The date stays vertically aligned with the gallery scrollbar while dragging and disappears when released. *(Photos tab)*
 - **Edited photos are no longer uploaded again.** Edited photos and videos were taken for reverted edits on every second sync: Pixel Porter removed their edited versions from the server and uploaded them again on the next sync. This no longer happens. The next sync checks once that the edited versions of earlier uploads are on the server and uploads any that are missing. *(Sync tab)*
