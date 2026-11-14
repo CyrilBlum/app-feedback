@@ -6,6 +6,10 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### New
 
+- **Revert edits from the Mac.** When you revert an edit in Apple Photos on the Mac, a revert request is sent to the iPhone so the photo can be reverted in Apple Photos there as well. *(Sync tab)*
+- **Direct deletion review navigation.** Tap Review Deletions to jump straight to the review list without extra navigation. *(Deletions tab)*
+- **Review status between iPhone and Mac.** Review marks sync between iPhone and Mac so photos marked as reviewed on one device stay reviewed on the other. *(Photos tab)*
+- **Changes from the Mac.** Photos you delete on the Mac show as Deleted on the Mac in the review of server deletions. Photos you add on the Mac appear under Server Additions, and edits made on the Mac can be applied under Edits from the Mac. Nothing changes on the iPhone until you confirm it. *(Sync tab)*
 - **Optional server checksum check.** Before Free Up Space removes backed-up photos from your iPhone, it can now optionally download and verify the SHA-256 checksum of every file on the server. You can turn this on in Settings under Safety. *(Settings and Sync tab)*
 - **Date while scrubbing.** Press and drag along the right edge of the Photos tab to scroll quickly. A label next to the scroll bar shows the year, month or day you are passing. *(Photos tab)*
 - **Collapsible date sections.** Collapse and expand day, month and year sections in the Photos tab by tapping their headers. A small button in the top right collapses or expands all sections at once for faster navigation. *(Photos tab)*
@@ -25,6 +29,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Improved
 
+- **Clearer connection test.** The connection test shows each check on its own line with its address: local, remote and the backup folder. *(Server tab)*
 - **Smoother gallery scrolling.** Scrolling in the Photos tab needs less computing per photo and runs more smoothly in large libraries. *(Photos tab)*
 - **Albums.** Album and favorite backup is on by default. Previously saved choices are kept. You can change this in Settings. *(Photos and Settings)*
 - **Review next to Delete in the viewer.** In the photo viewer, the Reviewed button now sits at the bottom right next to the Delete button. *(Photos tab)*
@@ -42,6 +47,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Edited videos reach the Mac.** When you edit a video on the iPhone, for example by trimming it, the Mac now applies the edit to its copy in Apple Photos after the next sync. Until now only edited photos were applied there. *(Photos tab)*
 - **Steady Sync button.** When everything is already backed up, the Sync button no longer switches back and forth between Sync and Stop after you tap it. *(Sync tab)*
 - **Select with marked photos.** On narrow iPhones such as the iPhone mini, the Select button in the Photos tab no longer disappears into the ••• menu while photos are marked for deletion. Marked photos are now deleted or cleared from a compact menu next to Select. *(Photos tab)*
 - **Albums load reliably.** The Albums list in the Photos tab no longer keeps loading while Apple Photos is still processing new photos, for example right after an import. *(Photos tab)*
@@ -61,4 +67,22 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 - **Large text layouts.** File details, gallery review counts and server-addition actions have more room at accessibility text sizes. The welcome text scrolls above the setup buttons. Viewer and editor controls keep readable labels and support the large-content viewer. Changelog headings wrap at large text sizes. *(Photos, Sync, Deletions and Settings)*
 - **Server check at start.** With inbound sync on, files deleted or added on the server are now checked in the background when the app starts, not only after the first sync. *(Sync tab)*
 - **Compact and accessibility layout stability.** Live sync transfer telemetry now adapts into responsive tiers without clipping or linebreaking numbers on compact screens and large Dynamic Type. Deletion review button icons display correct contrast, and camera model counts maintain full width. *(Sync, Deletions and Settings)*
+
+## 1.0 (2026-11-14)
+
+### New
+
+- **Revert edits for the iPhone.** Reverting an edited photo back to its original sends a revert request to the iPhone, keeping both libraries in sync. *(Photos)*
+- **Transfer speed on the Mac.** During synchronization, active uploads and downloads show the current transfer speed in real time. *(Sync)*
+- **Deletions and Server Bin in the sidebar.** A dedicated Deletions section in the sidebar lets you review pending deletions and manage photos stored in the Server Bin. *(Deletions)*
+- **Editing like on the iPhone.** Edit photos and videos on your Mac with adjustments, crop, rotation and filters just like on the iPhone. *(Photos)*
+- **Delete, add and edit for the iPhone.** Deleting an iPhone photo on the Mac moves it to the Server Bin and asks the iPhone to delete it too. New photos from this Mac and your edits of iPhone photos are offered on the iPhone. *(Photos)*
+- **Shared backup stays intact.** When the Mac shows your iPhone's backup, it no longer replaces the iPhone's record on the server. Photos you deleted on the iPhone appear as in the Server Bin, and a failed download shows its reason next to the button. *(Photos)*
+- **Pixel Porter for Mac.** Native macOS app with sidebar navigation, Apple Photos integration and full WebDAV synchronization. *(App-wide)*
+- **Menu bar extra.** Live sync progress, current transfer status and quick actions right in the macOS menu bar. *(Menu bar)*
+- **Launch at login.** Optionally start Pixel Porter automatically when logging into your Mac, running smoothly in the background. *(Settings)*
+
+### Improved
+
+- **Filters and review status like on the iPhone.** Filter menu with section headers, reset options and review seal badges matching the iPhone. *(Photos)*
 
