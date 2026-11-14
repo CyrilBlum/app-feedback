@@ -9,7 +9,10 @@ copyright: Cyril Blum, <a href="https://cblum.ch/apps/">cblum.ch/apps</a>
 theme:
   name: material
   features:
-    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - toc.follow
     - navigation.top
     - search.suggest
   palette:

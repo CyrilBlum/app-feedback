@@ -30,3 +30,24 @@
   .screenshot-guide { grid-template-columns: minmax(0, 1fr); }
   .screenshot-guide__image, .screenshot-guide__details { grid-column: 1; grid-row: auto; }
 }
+
+/* App tabs are distinct from pages within the selected guide. */
+.md-tabs { background-color: #18354f; }
+.md-tabs__link { opacity: .85; padding-bottom: .35rem; }
+.md-tabs__item--active .md-tabs__link {
+  opacity: 1;
+  font-weight: 700;
+  border-bottom: 3px solid #ffb56b;
+}
+.md-nav--primary > .md-nav__title { font-weight: 700; }
+.md-nav--primary .md-nav__link--active {
+  color: var(--md-typeset-a-color);
+  font-weight: 700;
+  border-left: 3px solid var(--md-typeset-a-color);
+  padding: .35rem .6rem;
+  margin-left: -.75rem;
+  background: var(--md-accent-fg-color--transparent);
+  border-radius: 0 4px 4px 0;
+}
+.md-nav--secondary { border-left: 1px solid var(--md-default-fg-color--lightest); padding-left: .8rem; }
+.md-nav--secondary > .md-nav__title { font-size: .65rem; text-transform: uppercase; letter-spacing: .04em; }
