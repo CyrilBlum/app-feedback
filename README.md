@@ -13,12 +13,18 @@ apps@cblum.ch. Meldungen auf Deutsch sind willkommen.
 Documentation and changelogs: <https://docs.cblum.ch/> (built from `docs/`
 with MkDocs; `scripts/sync-*.sh` copy each app's changelog here).
 
-To update the documented apps' changelogs from sibling private checkouts, run
-`scripts/sync-betterbabybook.sh`, `scripts/sync-cycloputer.sh`,
-`scripts/sync-pixelporter.sh` `scripts/sync-rapidreminders.sh` and `scripts/sync-timetrackingtool.sh` as needed.
-TimeTrackingTool accepts `TIMETRACKINGTOOL_ROOT` and reads its canonical release notes JSON.
-The new scripts accept `BETTERBABYBOOK_ROOT`, `CYCLOPUTER_ROOT` and
-`RAPIDREMINDERS_ROOT` and `WEWEIGHT_ROOT` when those checkouts are elsewhere. The docs site is
+To update changelogs from local app checkouts, run the relevant script:
+
+- `scripts/sync-betterbabybook.sh` (`BETTERBABYBOOK_ROOT`)
+- `scripts/sync-cycloputer.sh` (`CYCLOPUTER_ROOT`)
+- `scripts/sync-pixelporter.sh` (`PIXELPORTER_ROOT`)
+- `scripts/sync-rapidreminders.sh` (`RAPIDREMINDERS_ROOT`)
+- `scripts/sync-timetrackingtool.sh` (`TIMETRACKINGTOOL_ROOT`)
+- `scripts/sync-vocabvault.sh` (`VOCABVAULT_ROOT`)
+- `scripts/sync-weweight.sh` (`WEWEIGHT_ROOT`)
+
+The environment variables override each app's default sibling checkout path.
+The docs site is
 English only. Better Baby Book's canonical changelog is German, so its script
 combines `docs/changelog/neuigkeiten.json` with the English texts in
 `scripts/better-baby-book-changelog.en.json` and stops while an entry is missing

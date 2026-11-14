@@ -72,6 +72,13 @@ nav:
       - Changelog: timetrackingtool/changelog.md
       - Feedback and development: timetrackingtool/feedback.md
 
+  - Vocab Vault:
+      - Overview: vocab-vault/index.md
+      - Features: vocab-vault/features.md
+      - Scanning, CSV and data: vocab-vault/import-and-data.md
+      - Changelog: vocab-vault/changelog.md
+      - Feedback and development: vocab-vault/feedback.md
+
   - WeWeight:
       - Overview: weweight/index.md
       - Features: weweight/features.md
