@@ -15,13 +15,14 @@ with MkDocs; `scripts/sync-*.sh` copy each app's changelog here).
 
 To update the documented apps' changelogs from sibling private checkouts, run
 `scripts/sync-betterbabybook.sh`, `scripts/sync-cycloputer.sh`,
-`scripts/sync-pixelporter.sh` and `scripts/sync-rapidreminders.sh` as needed.
+`scripts/sync-pixelporter.sh` `scripts/sync-rapidreminders.sh` and `scripts/sync-timetrackingtool.sh` as needed.
+TimeTrackingTool accepts `TIMETRACKINGTOOL_ROOT` and reads its canonical release notes JSON.
 The new scripts accept `BETTERBABYBOOK_ROOT`, `CYCLOPUTER_ROOT` and
-`RAPIDREMINDERS_ROOT` when those checkouts are elsewhere. The docs site is
+`RAPIDREMINDERS_ROOT` and `WEWEIGHT_ROOT` when those checkouts are elsewhere. The docs site is
 English only. Better Baby Book's canonical changelog is German, so its script
 combines `docs/changelog/neuigkeiten.json` with the English texts in
 `scripts/better-baby-book-changelog.en.json` and stops while an entry is missing
-there or its German text changed. Cycloputer and Rapid Reminders read their
+there or its German text changed. Cycloputer, Rapid Reminders and WeWeight read their
 canonical JSON directly without modifying the apps. A sync publishes every entry
 in the app's source, including unreleased ones; check the diff before pushing.
 

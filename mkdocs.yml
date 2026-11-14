@@ -61,5 +61,20 @@ nav:
       - Changelog: rapid-reminders/changelog.md
       - Feedback and development: rapid-reminders/feedback.md
 
+  - TimeTrackingTool:
+      - Overview: timetrackingtool/index.md
+      - iPhone features: timetrackingtool/features.md
+      - Calendars, sync and data: timetrackingtool/data-and-sync.md
+      - Mac workflow: timetrackingtool/mac.md
+      - Changelog: timetrackingtool/changelog.md
+      - Feedback and development: timetrackingtool/feedback.md
+
+  - WeWeight:
+      - Overview: weweight/index.md
+      - Features: weweight/features.md
+      - Data and exports: weweight/data-and-exports.md
+      - Changelog: weweight/changelog.md
+      - Feedback and development: weweight/feedback.md
+
 extra_css:
   - stylesheets/extra.css
