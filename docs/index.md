@@ -11,10 +11,9 @@ pages, screenshots and privacy policies are on
 | Pixel Porter | iOS | [Overview](pixel-porter/index.md), [features](pixel-porter/features.md), [sync model](pixel-porter/sync-model.md), [changelog](pixel-porter/changelog.md) |
 | Rapid Reminders | iOS | [Overview](rapid-reminders/index.md), [features](rapid-reminders/features.md), [sync and sharing](rapid-reminders/sync-and-data.md), [changelog](rapid-reminders/changelog.md) |
 | TimeTrackingTool | iOS, macOS implementation | [Overview](timetrackingtool/index.md), [iPhone features](timetrackingtool/features.md), [Mac workflow](timetrackingtool/mac.md), [data and sync](timetrackingtool/data-and-sync.md), [changelog](timetrackingtool/changelog.md) |
-
 | WeWeight | iOS | [Overview](weweight/index.md), [features](weweight/features.md), [data and exports](weweight/data-and-exports.md), [changelog](weweight/changelog.md) |
 
-Documentation for ScreenSnipStudio, Vocab Vault and WeWeight is not yet available here. Guides describe the current implementation; the build installed on your device may differ.
+Documentation for ScreenSnipStudio and Vocab Vault is not yet available here. Guides describe the current implementation; the build installed on your device may differ.
 
 ## Feedback
 
