@@ -10,7 +10,7 @@ WeWeight keeps a weight log and a plan of self-chosen bulk, cut and maintenance 
 | Storage | Measurements and goal phases are stored locally. The GitHub token is stored in the iOS Keychain. |
 | Offline use | Local measurements, charts, goals and goal CSV files. GitHub actions and sending feedback need a connection. |
 
-This guide describes the current implementation, including changes in version 1.2. Functions marked as coming with the next update after version 1.2 are not in the App Store version yet. The build installed on your device may differ; see the [changelog](changelog.md). Screenshots show version 1.2, build 9, captured on 04.11.2026 with fictional data on an isolated iPhone simulator. Minor controls may differ in later builds.
+This guide describes the current implementation. The App Store has version 1.2. The feedback form, What’s New and the functions marked «from version 1.2.1» come with version 1.2.1. The build installed on your device may differ; see the [changelog](changelog.md). Screenshots show version 1.2, build 9, captured on 04.11.2026 with fictional data on an isolated iPhone simulator. Minor controls may differ in later builds.
 
 ## Getting started
 

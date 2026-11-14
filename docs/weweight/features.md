@@ -35,7 +35,7 @@ The screenshots show fictional demonstration data in WeWeight 1.2 (9), captured 
 | # | Element | Function |
 | --- | --- | --- |
 | 1 | Add measurement | Use + to enter a weight in kilograms and a date, then Save. Tap a manual entry to edit it. Done closes the number keyboard. |
-| 2 | Import Weight from Health | Read body-weight measurements from Health after granting access. Progress and a result are shown. From the next update after version 1.2, Cancel Health Import stops a running import and keeps the measurements imported earlier. |
+| 2 | Import Weight from Health | Read body-weight measurements from Health after granting access. Progress and a result are shown. From version 1.2.1, Cancel Health Import stops a running import and keeps the measurements imported earlier. |
 | 3 | Delete Imported Copies | Remove WeWeight’s imported copies after confirmation. Manual entries and the data in Health stay. |
 | 4 | Measurement list | Each row shows its date, weight and source. Swipe a manual entry to delete it, then confirm. Sample labels appear only in these fictional demonstration captures. |
 
@@ -72,7 +72,7 @@ The screenshots show fictional demonstration data in WeWeight 1.2 (9), captured 
 
 | # | Element | Function |
 | --- | --- | --- |
-| 1 | Save or cancel | Save a valid phase. Cancel closes the editor. From the next update after version 1.2, Cancel asks before discarding unsaved changes, and an editor that was open when WeWeight was closed reopens with your entries on the next launch. The measurement editor behaves the same way. |
+| 1 | Save or cancel | Save a valid phase. Cancel closes the editor. From version 1.2.1, Cancel asks before discarding unsaved changes, and an editor that was open when WeWeight was closed reopens with your entries on the next launch. The measurement editor behaves the same way. |
 | 2 | Phase and dates | Choose Bulk, Cut or Maintenance and set the start and end dates. |
 | 3 | Goal entry | Choose a target weight, percentage change or change in kilograms. Rate entry supports weekly or monthly changes. The focused field stays above the keyboard, and Done closes it. Labels describe your chosen plan and are not health recommendations. |
 
@@ -113,7 +113,7 @@ The screenshots show fictional demonstration data in WeWeight 1.2 (9), captured 
 | --- | --- | --- |
 | 1 | Type and message | Choose Problem, Suggestion or Question, then describe the issue. Do not include health data. |
 | 2 | Optional e-mail | Enter an address only if you want a ticket confirmation and reply. |
-| 3 | App and device details | Switch on to include the displayed app version, iOS version, device model and region. The screenshot shows the switch turned on. From the next update after version 1.2, it starts switched off and the region is shown in the preview. Measurements, goals and GitHub settings are never included. |
+| 3 | App and device details | Switch on to include the displayed app version, iOS version, device model and region. The screenshot shows the switch turned on. From version 1.2.1, it starts switched off and the region is shown in the preview. Measurements, goals and GitHub settings are never included. |
 | 4 | Send or e-mail | Send the form or open your mail app with Write E-Mail Instead. The pictured submission was a test stub; it sent no report. |
 
 </div>
