@@ -47,6 +47,13 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Server actions fit small screens.** Server Bin cleanup labels stay readable. Server Additions actions leave room for files at large text sizes.
+- **Mac video previews and accessible settings.** Fixed a crash when opening video previews on the Mac. Server settings now label their text fields for assistive technologies.
+- **Gallery controls at large text sizes.** Selection actions fit narrow screens at large text sizes. Videos keep playing when sound is muted or unmuted.
+- **Readable sync and transfer details.** Review buttons and transfer details stack vertically at accessibility text sizes.
+- **Readable feedback and safety notices.** The Mac feedback form fits its window. Safety notices now describe media transfers and optional feedback. Long navigation labels use shorter wording or scale to fit.
+- **Gallery updates stay responsive.** The gallery no longer freezes while Apple Photos imports or changes photos.
+- **Safer Server Bin and sync records.** Single-item Bin deletion checks every file and keeps failed items for retry. Damaged sync records are preserved. The Mac shows operation errors and asks before permanent deletion or large deletion batches. Feedback diagnostics are opt-in.
 - **Edited videos reach the Mac.** When you edit a video on the iPhone, for example by trimming it, the Mac now applies the edit to its copy in Apple Photos after the next sync. Until now only edited photos were applied there. *(Photos tab)*
 - **Steady Sync button.** When everything is already backed up, the Sync button no longer switches back and forth between Sync and Stop after you tap it. *(Sync tab)*
 - **Select with marked photos.** On narrow iPhones such as the iPhone mini, the Select button in the Photos tab no longer disappears into the ••• menu while photos are marked for deletion. Marked photos are now deleted or cleared from a compact menu next to Select. *(Photos tab)*
@@ -85,4 +92,3 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 ### Improved
 
 - **Filters and review status like on the iPhone.** Filter menu with section headers, reset options and review seal badges matching the iPhone. *(Photos)*
-
