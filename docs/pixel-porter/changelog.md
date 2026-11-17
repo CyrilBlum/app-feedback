@@ -47,6 +47,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Fixed
 
+- **Swipe down to close a photo.** On iPhone, swipe down on a photo to return to the gallery. Zoomed photos still pan normally.
 - **Server actions fit small screens.** Server Bin cleanup labels stay readable. Server Additions actions leave room for files at large text sizes.
 - **Mac video previews and accessible settings.** Fixed a crash when opening video previews on the Mac. Server settings now label their text fields for assistive technologies.
 - **Gallery controls at large text sizes.** Selection actions fit narrow screens at large text sizes. Videos keep playing when sound is muted or unmuted.
