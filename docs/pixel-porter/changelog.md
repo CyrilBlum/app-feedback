@@ -6,6 +6,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### New
 
+- **On This Day.** Turn on On This Day in Settings to see the photos taken on today's date in earlier years. Once a day the app asks whether to sort them out now, with a preview of each year. The comparison view keeps every photo unless you mark it to discard, and deleting asks for confirmation. A card in Photos keeps them available for the rest of the day. *(Photos tab)*
 - **Revert edits from the Mac.** When you revert an edit in Apple Photos on the Mac, a revert request is sent to the iPhone so the photo can be reverted in Apple Photos there as well. *(Sync tab)*
 - **Direct deletion review navigation.** Tap Review Deletions to jump straight to the review list without extra navigation. *(Deletions tab)*
 - **Review status between iPhone and Mac.** Review marks sync between iPhone and Mac so photos marked as reviewed on one device stay reviewed on the other. *(Photos tab)*
@@ -29,6 +30,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### Improved
 
+- **Scroll while selecting.** In selection mode, dragging up or down scrolls even when the finger starts on a photo. Drag sideways across photos to select them, then continue in any direction, as in Apple Photos. *(Photos tab)*
 - **Clearer connection test.** The connection test shows each check on its own line with its address: local, remote and the backup folder. *(Server tab)*
 - **Smoother gallery scrolling.** Scrolling in the Photos tab needs less computing per photo and runs more smoothly in large libraries. *(Photos tab)*
 - **Albums.** Album and favorite backup is on by default. Previously saved choices are kept. You can change this in Settings. *(Photos and Settings)*
