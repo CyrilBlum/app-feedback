@@ -6,7 +6,7 @@ All changes to Pixel Porter, newest first. The same list is in the app under Set
 
 ### New
 
-- **On This Day.** Turn on On This Day in Settings to see the photos taken on today's date in earlier years. Once a day the app asks whether to sort them out now, with a preview of each year. The comparison view keeps every photo unless you mark it to discard, and deleting asks for confirmation. A card in Photos keeps them available for the rest of the day. *(Photos tab)*
+- **On This Day.** Turn on On This Day in Settings to see the photos taken on today's date in earlier years. Once a day, if at least one of them is not reviewed yet, the app asks whether to sort them out now, with a preview of each year. The comparison view keeps every photo unless you mark it to discard, and deleting asks for confirmation. A card in Photos keeps them available for the rest of the day until all of them are reviewed. *(Photos tab)*
 - **Revert edits from the Mac.** When you revert an edit in Apple Photos on the Mac, a revert request is sent to the iPhone so the photo can be reverted in Apple Photos there as well. *(Sync tab)*
 - **Direct deletion review navigation.** Tap Review Deletions to jump straight to the review list without extra navigation. *(Deletions tab)*
 - **Review status between iPhone and Mac.** Review marks sync between iPhone and Mac so photos marked as reviewed on one device stay reviewed on the other. *(Photos tab)*
