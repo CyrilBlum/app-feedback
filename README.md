@@ -52,7 +52,7 @@ Do not use floated images for these pairs.
 | --- | --- | --- |
 | Better Baby Book | iOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+Better+Baby+Book%22) |
 | Cycloputer | iOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+Cycloputer%22) |
-| Nice Notes | iPadOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+Nice+Notes%22) |
+| Noble Notes | iPadOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+Noble+Notes%22) |
 | Pixel Porter | iOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+Pixel+Porter%22) |
 | Rapid Reminders | iOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+Rapid+Reminders%22) |
 | ScreenSnipStudio | macOS | [open](https://github.com/CyrilBlum/app-feedback/issues?q=is%3Aopen+label%3A%22app%3A+ScreenSnipStudio%22) |
